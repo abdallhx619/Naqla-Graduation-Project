@@ -1,0 +1,124 @@
+# Naqla — calorie, macro and body-index formulas.
+# Single source of truth for the AI reference code (reference/) and the app (Dart).
+# Every value cites its source. Changing any value = bump `version` + CHANGELOG.md.
+version: "1.1"
+date: "2026-11-18"
+approved_by: "Abdallh Mohamed (Engineer 2) — owner sign-off, 18 Nov 2026"
+rounding: "none — every step keeps full double precision; tests compare with abs tolerance 1e-6"
+float_tolerance_at_cutoffs: 1.0e-9   # tolerance for float noise, not rounding
+
+order_of_calculation:
+  - "1. Health screen (pregnancy/breastfeeding, eating-disorder history, diabetes on medication, kidney disease) -> any yes = maintenance only + 'see a doctor'. Age < 16 not supported."
+  - "2. Classification: adults (18+) WHO TRS 894; 16-17 WHO 2007 BMI-for-age z-score."
+  - "3. REE: Mifflin by default; Cunningham only when body fat % comes from a device (InBody/DEXA)."
+  - "4. PAL = base + dPAL(strength) + dPAL(cardio), max 2.5."
+  - "5. TDEE = REE x PAL (+25 kcal for 16-17)."
+  - "6. Goal rule (lose / gain / maintain)."
+  - "7. Periodic adjustment (added on top; reset on every recalculation)."
+  - "8. Calorie floor."
+  - "9. Macros."
+
+bmi_adult:
+  formula: "weight_kg / (height_m ^ 2)"
+  applies_to: "age >= 18"
+  bands:   # lower bound inclusive; a value on a cut-off goes to the higher class
+    underweight: [0, 18.5]
+    normal: [18.5, 25]
+    pre_obese: [25, 30]          # display "Overweight (Pre-obese)"
+    obese_1: [30, 35]
+    obese_2: [35, 40]
+    obese_3: [40, null]
+  source: "WHO Technical Report Series 894 (2000), Table 2.1"
+
+bmi_for_age_16_17:
+  formula: "z = ((BMI / M)^L - 1) / (L * S); beyond +/-3 SD use WHO adjustment with the 2-3 SD distance"
+  lms_table: "config/who2007_bmi_for_age_lms.csv (sex, age in completed months 60-229)"
+  classes: { severe_thinness: "z < -3", thinness: "z < -2", normal: "-2 <= z <= 1", overweight: "z > 1", obesity: "z > 2" }
+  source: "WHO Growth Reference 5-19 years (de Onis et al. 2007, Bull WHO 85:660-667); LMS values as distributed by WHO (anthroplus data)"
+  check: "girls 17:0 cut-offs reproduce WHO's published table: 16.4 / 18.4 / 24.5 / 29.3"
+
+ree:
+  mifflin:
+    formula: "10*W + 6.25*H - 5*A + 5 (men); 10*W + 6.25*H - 5*A - 161 (women)  [kg, cm, years]"
+    source: "Mifflin et al. 1990, Am J Clin Nutr 51:241-247 (PMID 2305711)"
+    note: "Validated on ages 19-78; used for 16-17 and 79+ as an extrapolation."
+  cunningham:
+    formula: "370 + 21.6 * FFM, FFM = W * (1 - body_fat_fraction)"
+    use_when: "body fat % from a device (InBody/DEXA) only — never from the tape (Navy) estimate"
+    source: "Cunningham 1991, Am J Clin Nutr 54:963-969 (same equation is often called Katch-McArdle)"
+
+pal:
+  formula: "PAL = base + sum((MET - 1) * k * (days * minutes / 7) / 1440), max 2.5"
+  k: { men: 1.34, women: 1.42 }   # 1.15/0.9/0.95 and 1.15/0.9/0.91
+  k_source: "IOM 2005 DRI Energy, ch. 12; derivation restated in AJCN 'Chronicle of the IOM physical activity recommendation'"
+  base:
+    sed: { value: 1.25, source: "IOM 2005: mean PAL of the 'sedentary' category (1.0-1.39)" }
+    stand: { value: 1.39, source: "IOM 2005: upper bound of the 'sedentary' category (daily living on your feet)" }
+    heavy: { value: "1.39 + (4.5 - 1) * k * 120 / 1440", source: "Team estimate: 2 h/day of Compendium 11476 (manual labour, moderate, 4.5 MET)" }
+  met:   # Compendium 2024, values used unchanged (Compendium terms forbid editing or merging values)
+    strength: { code: "02054", value: 3.5 }
+    brisk_walk: { code: "17200", value: 4.8 }
+    jog: { code: "12030", value: 8.5 }
+    run: { code: "12050", value: 9.3 }
+    stationary_bike: { code: "01200", value: 6.8 }
+  onboarding_options: { strength_minutes: [30, 45, 60, 90], cardio_minutes: [15, 30, 45, 60], days: "0-7" }
+  met_source: "Herrmann et al. 2024 Adult Compendium of Physical Activities (pacompendium.com)"
+  note: "IOM defines PAL on BEE; we multiply by REE (Mifflin). Small known difference, corrected later by the periodic adjustment."
+
+tdee:
+  formula: "REE * PAL (+25 kcal/day for ages 16-17)"
+  growth_source: "IOM 2005 EER equations for ages 9-18 include +25 kcal/day energy deposition"
+  output: "one exact number per day, the same every day (training is averaged into PAL)"
+
+goals:
+  lose:
+    blocked_for: ["adult underweight (BMI < 18.5)", "teen thinness / severe thinness", "teen normal (v1.1: teens may lose only if overweight or obesity)"]
+    deficit: "min(share * TDEE, 500); share = 0.25 if obese (adult BMI >= 30 or teen obesity) else 0.20"
+    sources:
+      - "Garthe et al. 2011, IJSNEM 21:97-104 — ~19% deficit kept/increased lean mass, ~30% did not"
+      - "Murphy & Koehler 2022, Scand J Med Sci Sports 32:125-137 — avoid deficits > 500 kcal/day when training"
+      - "AHA/ACC/TOS 2013 — 500-750 kcal/day deficit; lower end chosen"
+    max_rate: "1% body weight per week (Helms et al. 2014) — faster triggers a calorie increase in the periodic adjustment"
+  gain:
+    blocked_for: ["adult obese (BMI >= 30)", "teen obesity"]
+    surplus: "+10% of TDEE if training < 2 years, +5% if > 2 years"
+    sources: ["Iraki et al. 2019, Sports 7:154 (lower end of ranges)", "Helms et al. 2023, Sports Med Open 9:102"]
+    experience_levels: ["<6m", "6m-2y", ">2y"]   # split at 2 years = team reading of ACSM 2009 'years of experience'
+  maintain: "target = TDEE"
+
+calorie_floor:
+  women: 1200
+  men: 1500
+  rule: "if floor >= TDEE -> maintenance + message; else target = max(target, floor)"
+  source: "AHA/ACC/TOS 2013: prescribe 1200-1500 kcal/day (women), 1500-1800 (men); the lower bound is used as the floor"
+
+periodic_adjustment:   # practice, no direct source — owner-approved
+  start_after_days: 14
+  min_weigh_ins_per_week: 4
+  compare: "current week mean vs week before last, every 14 days"
+  step: "+/-5% of TDEE, at most once every 14 days"
+  cumulative_cap: "+/-15% (then ask the user to review their data)"
+  target_rates_pct_per_week: { lose: [0.5, 1.0], gain_under_2y: [0.25, 0.5], gain_over_2y: 0.25, maintain: [-0.25, 0.25] }
+  sources: ["AHA/ACC/TOS 2013 (weekly weighing)", "Hall et al. 2011 Lancet (slow response -> small steps)"]
+
+recalculate_when:
+  - "weight changes by >= 2 kg"
+  - "18th birthday (with a message)"
+  - "goal, activity answers or body-fat % change"
+  - "logged training < 50% of plan for 4 weeks -> suggest updating activity answers"
+
+macros:
+  protein:
+    g_per_kg: { lose: 2.0, gain: 1.6, maintain: 1.6 }
+    reference_weight: "min(actual weight, weight at BMI 30 = 30 * height_m^2)"
+    cap_share_of_kcal: { adults: 0.35, teens_16_17: 0.30 }
+    sources:
+      - "Jager et al. 2017 ISSN position stand: 1.4-2.0 g/kg"
+      - "Morton et al. 2018 BJSM: benefit plateaus ~1.62 g/kg"
+      - "Weijs 2024 Curr Opin Clin Nutr Metab Care: cap body weight at BMI 30 for protein"
+      - "IOM 2005 AMDR: protein 10-35% (adults), 10-30% (ages 4-18)"
+  fat:
+    share_of_kcal: { adults: 0.25, teens_16_17: 0.30 }
+    source: "IOM 2005 AMDR: fat 20-35% (adults), 25-35% (ages 4-18)"
+  carbs: "remainder = (target - 4*protein - 9*fat) / 4"
+  known_gap: "during weight loss carbs can fall to ~36-43% of kcal, below the AMDR 45% floor, because of the higher protein ISSN supports"
