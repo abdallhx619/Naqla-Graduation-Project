@@ -1,0 +1,248 @@
+{
+ "spec_version": "1.1",
+ "tolerance_abs": 1e-06,
+ "count": 20,
+ "rule": "exact BMI, no rounding; float tolerance 1e-9 at cut-offs; cut-off values go to the higher class",
+ "vectors": [
+  {
+   "id": "N01",
+   "input": {
+    "weight_kg": 80,
+    "height_cm": 178
+   },
+   "expected": {
+    "bmi": 25.24933720489837,
+    "class": "pre_obese"
+   },
+   "note": "normal case"
+  },
+  {
+   "id": "N02",
+   "input": {
+    "weight_kg": 60,
+    "height_cm": 162
+   },
+   "expected": {
+    "bmi": 22.86236854138088,
+    "class": "normal"
+   },
+   "note": "normal"
+  },
+  {
+   "id": "N03",
+   "input": {
+    "weight_kg": 130,
+    "height_cm": 175
+   },
+   "expected": {
+    "bmi": 42.44897959183673,
+    "class": "obese_3"
+   },
+   "note": "obese III"
+  },
+  {
+   "id": "N04",
+   "input": {
+    "weight_kg": 50,
+    "height_cm": 168
+   },
+   "expected": {
+    "bmi": 17.71541950113379,
+    "class": "underweight"
+   },
+   "note": "underweight"
+  },
+  {
+   "id": "N05",
+   "input": {
+    "weight_kg": 105,
+    "height_cm": 175
+   },
+   "expected": {
+    "bmi": 34.285714285714285,
+    "class": "obese_1"
+   },
+   "note": "obese I"
+  },
+  {
+   "id": "N06",
+   "input": {
+    "weight_kg": 95,
+    "height_cm": 170
+   },
+   "expected": {
+    "bmi": 32.871972318339104,
+    "class": "obese_1"
+   },
+   "note": "obese I"
+  },
+  {
+   "id": "B01",
+   "input": {
+    "weight_kg": 81.4,
+    "height_cm": 165
+   },
+   "expected": {
+    "bmi": 29.898989898989903,
+    "class": "pre_obese"
+   },
+   "note": "29.90 just under 30"
+  },
+  {
+   "id": "B02",
+   "input": {
+    "weight_kg": 81.7,
+    "height_cm": 165
+   },
+   "expected": {
+    "bmi": 30.009182736455468,
+    "class": "obese_1"
+   },
+   "note": "30.01 just over 30"
+  },
+  {
+   "id": "B03",
+   "input": {
+    "weight_kg": 53.465,
+    "height_cm": 170
+   },
+   "expected": {
+    "bmi": 18.500000000000004,
+    "class": "normal"
+   },
+   "note": "exactly 18.50 -> higher class"
+  },
+  {
+   "id": "B04",
+   "input": {
+    "weight_kg": 53.17,
+    "height_cm": 170
+   },
+   "expected": {
+    "bmi": 18.39792387543253,
+    "class": "underweight"
+   },
+   "note": "18.398"
+  },
+  {
+   "id": "B05",
+   "input": {
+    "weight_kg": 72.25,
+    "height_cm": 170
+   },
+   "expected": {
+    "bmi": 25.000000000000004,
+    "class": "pre_obese"
+   },
+   "note": "exactly 25.00 (float noise)"
+  },
+  {
+   "id": "B06",
+   "input": {
+    "weight_kg": 72.1,
+    "height_cm": 170
+   },
+   "expected": {
+    "bmi": 24.94809688581315,
+    "class": "normal"
+   },
+   "note": "24.948"
+  },
+  {
+   "id": "B07",
+   "input": {
+    "weight_kg": 72.13,
+    "height_cm": 170
+   },
+   "expected": {
+    "bmi": 24.95847750865052,
+    "class": "normal"
+   },
+   "note": "24.958 stays normal (no rounding)"
+  },
+  {
+   "id": "B08",
+   "input": {
+    "weight_kg": 86.58,
+    "height_cm": 170
+   },
+   "expected": {
+    "bmi": 29.95847750865052,
+    "class": "pre_obese"
+   },
+   "note": "29.958 stays pre-obese"
+  },
+  {
+   "id": "B09",
+   "input": {
+    "weight_kg": 101.15,
+    "height_cm": 170
+   },
+   "expected": {
+    "bmi": 35.00000000000001,
+    "class": "obese_2"
+   },
+   "note": "exactly 35.00"
+  },
+  {
+   "id": "B10",
+   "input": {
+    "weight_kg": 115.6,
+    "height_cm": 170
+   },
+   "expected": {
+    "bmi": 40.0,
+    "class": "obese_3"
+   },
+   "note": "exactly 40.00"
+  },
+  {
+   "id": "B11",
+   "input": {
+    "weight_kg": 115.5,
+    "height_cm": 170
+   },
+   "expected": {
+    "bmi": 39.965397923875436,
+    "class": "obese_2"
+   },
+   "note": "39.965 stays obese II"
+  },
+  {
+   "id": "E01",
+   "input": {
+    "weight_kg": 45,
+    "height_cm": 150
+   },
+   "expected": {
+    "bmi": 20.0,
+    "class": "normal"
+   },
+   "note": "20.0"
+  },
+  {
+   "id": "E02",
+   "input": {
+    "weight_kg": 40,
+    "height_cm": 190
+   },
+   "expected": {
+    "bmi": 11.0803324099723,
+    "class": "underweight"
+   },
+   "note": "very low 11.08"
+  },
+  {
+   "id": "E03",
+   "input": {
+    "weight_kg": 200,
+    "height_cm": 160
+   },
+   "expected": {
+    "bmi": 78.12499999999999,
+    "class": "obese_3"
+   },
+   "note": "very high 78.1"
+  }
+ ]
+}
