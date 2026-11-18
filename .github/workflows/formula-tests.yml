@@ -18,5 +18,7 @@ jobs:
         run: |
           python reference/build_vectors.py
           git diff --exit-code tests/vectors/
-      - name: Run formula tests
+      - name: Run calorie engine tests
         run: python reference/test_naqla_calc.py
+      - name: Run body / training / tracking tests
+        run: python reference/test_body_training.py

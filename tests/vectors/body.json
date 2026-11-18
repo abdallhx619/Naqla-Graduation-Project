@@ -1,0 +1,1667 @@
+{
+ "spec_version": "1.2",
+ "tolerance_abs": 1e-06,
+ "count": 80,
+ "note": "Tape BF% (Navy 1984), lean/fat mass, Boer fallback, waist ratios, healthy-weight range.",
+ "vectors": [
+  {
+   "id": "NAVY_M-001",
+   "group": "NAVY_M",
+   "function": "navy_body_fat",
+   "description": "M h160 neck34 waist76",
+   "inputs": {
+    "sex": "M",
+    "height_cm": 160,
+    "neck_cm": 34,
+    "waist_cm": 76
+   },
+   "expected": {
+    "bf_pct": 15.48739296035535,
+    "bf_low": 11.967392960355351,
+    "bf_high": 19.00739296035535,
+    "see": 3.52,
+    "density": 1.0634015173900921,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_M-002",
+   "group": "NAVY_M",
+   "function": "navy_body_fat",
+   "description": "M h160 neck38 waist85",
+   "inputs": {
+    "sex": "M",
+    "height_cm": 160,
+    "neck_cm": 38,
+    "waist_cm": 85
+   },
+   "expected": {
+    "bf_pct": 19.602632881559202,
+    "bf_low": 16.082632881559203,
+    "bf_high": 23.122632881559202,
+    "see": 3.52,
+    "density": 1.054082676160903,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_M-003",
+   "group": "NAVY_M",
+   "function": "navy_body_fat",
+   "description": "M h160 neck40 waist95",
+   "inputs": {
+    "sex": "M",
+    "height_cm": 160,
+    "neck_cm": 40,
+    "waist_cm": 95
+   },
+   "expected": {
+    "bf_pct": 25.477011730369497,
+    "bf_low": 21.957011730369498,
+    "bf_high": 28.997011730369497,
+    "see": 3.52,
+    "density": 1.0410597942444828,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_M-004",
+   "group": "NAVY_M",
+   "function": "navy_body_fat",
+   "description": "M h160 neck43 waist110",
+   "inputs": {
+    "sex": "M",
+    "height_cm": 160,
+    "neck_cm": 43,
+    "waist_cm": 110
+   },
+   "expected": {
+    "bf_pct": 33.064210652360714,
+    "bf_low": 29.544210652360714,
+    "bf_high": 36.58421065236072,
+    "see": 3.52,
+    "density": 1.024708494408063,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_M-005",
+   "group": "NAVY_M",
+   "function": "navy_body_fat",
+   "description": "M h160 neck46 waist125",
+   "inputs": {
+    "sex": "M",
+    "height_cm": 160,
+    "neck_cm": 46,
+    "waist_cm": 125
+   },
+   "expected": {
+    "bf_pct": 39.58593144852699,
+    "bf_low": 36.06593144852699,
+    "bf_high": 43.105931448526995,
+    "see": 3.52,
+    "density": 1.0110584643138223,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_M-006",
+   "group": "NAVY_M",
+   "function": "navy_body_fat",
+   "description": "M h175 neck34 waist76",
+   "inputs": {
+    "sex": "M",
+    "height_cm": 175,
+    "neck_cm": 34,
+    "waist_cm": 76
+   },
+   "expected": {
+    "bf_pct": 12.869153742691765,
+    "bf_low": 9.349153742691765,
+    "bf_high": 16.389153742691764,
+    "see": 3.52,
+    "density": 1.069416693675746,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_M-007",
+   "group": "NAVY_M",
+   "function": "navy_body_fat",
+   "description": "M h175 neck38 waist85",
+   "inputs": {
+    "sex": "M",
+    "height_cm": 175,
+    "neck_cm": 38,
+    "waist_cm": 85
+   },
+   "expected": {
+    "bf_pct": 16.938027331731348,
+    "bf_low": 13.418027331731349,
+    "bf_high": 20.458027331731348,
+    "see": 3.52,
+    "density": 1.0600978524465567,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_M-008",
+   "group": "NAVY_M",
+   "function": "navy_body_fat",
+   "description": "M h175 neck40 waist95",
+   "inputs": {
+    "sex": "M",
+    "height_cm": 175,
+    "neck_cm": 40,
+    "waist_cm": 95
+   },
+   "expected": {
+    "bf_pct": 22.745518641688307,
+    "bf_low": 19.225518641688307,
+    "bf_high": 26.265518641688306,
+    "see": 3.52,
+    "density": 1.0470749705301368,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_M-009",
+   "group": "NAVY_M",
+   "function": "navy_body_fat",
+   "description": "M h175 neck43 waist110",
+   "inputs": {
+    "sex": "M",
+    "height_cm": 175,
+    "neck_cm": 43,
+    "waist_cm": 110
+   },
+   "expected": {
+    "bf_pct": 30.245107465947456,
+    "bf_low": 26.725107465947456,
+    "bf_high": 33.76510746594746,
+    "see": 3.52,
+    "density": 1.030723670693717,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_M-010",
+   "group": "NAVY_M",
+   "function": "navy_body_fat",
+   "description": "M h175 neck46 waist125",
+   "inputs": {
+    "sex": "M",
+    "height_cm": 175,
+    "neck_cm": 46,
+    "waist_cm": 125
+   },
+   "expected": {
+    "bf_pct": 36.69042264062682,
+    "bf_low": 33.17042264062682,
+    "bf_high": 40.210422640626824,
+    "see": 3.52,
+    "density": 1.017073640599476,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_M-011",
+   "group": "NAVY_M",
+   "function": "navy_body_fat",
+   "description": "M h190 neck34 waist76",
+   "inputs": {
+    "sex": "M",
+    "height_cm": 190,
+    "neck_cm": 34,
+    "waist_cm": 76
+   },
+   "expected": {
+    "bf_pct": 10.492150623475368,
+    "bf_low": 6.972150623475368,
+    "bf_high": 14.012150623475367,
+    "see": 3.52,
+    "density": 1.0749368894340616,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_M-012",
+   "group": "NAVY_M",
+   "function": "navy_body_fat",
+   "description": "M h190 neck38 waist85",
+   "inputs": {
+    "sex": "M",
+    "height_cm": 190,
+    "neck_cm": 38,
+    "waist_cm": 85
+   },
+   "expected": {
+    "bf_pct": 14.519159406009635,
+    "bf_low": 10.999159406009635,
+    "bf_high": 18.039159406009635,
+    "see": 3.52,
+    "density": 1.0656180482048725,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_M-013",
+   "group": "NAVY_M",
+   "function": "navy_body_fat",
+   "description": "M h190 neck40 waist95",
+   "inputs": {
+    "sex": "M",
+    "height_cm": 190,
+    "neck_cm": 40,
+    "waist_cm": 95
+   },
+   "expected": {
+    "bf_pct": 20.266267462937037,
+    "bf_low": 16.746267462937038,
+    "bf_high": 23.786267462937037,
+    "see": 3.52,
+    "density": 1.0525951662884523,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_M-014",
+   "group": "NAVY_M",
+   "function": "navy_body_fat",
+   "description": "M h190 neck43 waist110",
+   "inputs": {
+    "sex": "M",
+    "height_cm": 190,
+    "neck_cm": 43,
+    "waist_cm": 110
+   },
+   "expected": {
+    "bf_pct": 27.686783994984808,
+    "bf_low": 24.166783994984808,
+    "bf_high": 31.206783994984807,
+    "see": 3.52,
+    "density": 1.0362438664520326,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_M-015",
+   "group": "NAVY_M",
+   "function": "navy_body_fat",
+   "description": "M h190 neck46 waist125",
+   "inputs": {
+    "sex": "M",
+    "height_cm": 190,
+    "neck_cm": 46,
+    "waist_cm": 125
+   },
+   "expected": {
+    "bf_pct": 34.06315626061155,
+    "bf_low": 30.54315626061155,
+    "bf_high": 37.58315626061155,
+    "see": 3.52,
+    "density": 1.0225938363577918,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_F-001",
+   "group": "NAVY_F",
+   "function": "navy_body_fat",
+   "description": "F h150 neck30 waist64 hip88",
+   "inputs": {
+    "sex": "F",
+    "height_cm": 150,
+    "neck_cm": 30,
+    "waist_cm": 64,
+    "hip_cm": 88
+   },
+   "expected": {
+    "bf_pct": 23.05191750847183,
+    "bf_low": 19.331917508471832,
+    "bf_high": 26.77191750847183,
+    "see": 3.72,
+    "density": 1.0463967731219166,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_F-002",
+   "group": "NAVY_F",
+   "function": "navy_body_fat",
+   "description": "F h150 neck32 waist72 hip96",
+   "inputs": {
+    "sex": "F",
+    "height_cm": 150,
+    "neck_cm": 32,
+    "waist_cm": 72,
+    "hip_cm": 96
+   },
+   "expected": {
+    "bf_pct": 30.63749017802502,
+    "bf_low": 26.91749017802502,
+    "bf_high": 34.35749017802502,
+    "see": 3.72,
+    "density": 1.0298822087653945,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_F-003",
+   "group": "NAVY_F",
+   "function": "navy_body_fat",
+   "description": "F h150 neck34 waist82 hip104",
+   "inputs": {
+    "sex": "F",
+    "height_cm": 150,
+    "neck_cm": 34,
+    "waist_cm": 82,
+    "hip_cm": 104
+   },
+   "expected": {
+    "bf_pct": 38.66029783559543,
+    "bf_low": 34.94029783559543,
+    "bf_high": 42.38029783559543,
+    "see": 3.72,
+    "density": 1.0129736387271173,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_F-004",
+   "group": "NAVY_F",
+   "function": "navy_body_fat",
+   "description": "F h150 neck36 waist95 hip115",
+   "inputs": {
+    "sex": "F",
+    "height_cm": 150,
+    "neck_cm": 36,
+    "waist_cm": 95,
+    "hip_cm": 115
+   },
+   "expected": {
+    "bf_pct": 48.778592301929336,
+    "bf_low": 45.05859230192934,
+    "bf_high": 52.498592301929335,
+    "see": 3.72,
+    "density": 0.9924243093824644,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_F-005",
+   "group": "NAVY_F",
+   "function": "navy_body_fat",
+   "description": "F h150 neck38 waist110 hip130",
+   "inputs": {
+    "sex": "F",
+    "height_cm": 150,
+    "neck_cm": 38,
+    "waist_cm": 110,
+    "hip_cm": 130
+   },
+   "expected": {
+    "bf_pct": 60.445585797838646,
+    "bf_low": 56.72558579783865,
+    "bf_high": 64.16558579783865,
+    "see": 3.72,
+    "density": 0.9697409748902093,
+    "method": "tape_navy_1984",
+    "in_validated_range": false,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_F-006",
+   "group": "NAVY_F",
+   "function": "navy_body_fat",
+   "description": "F h165 neck30 waist64 hip88",
+   "inputs": {
+    "sex": "F",
+    "height_cm": 165,
+    "neck_cm": 30,
+    "waist_cm": 64,
+    "hip_cm": 88
+   },
+   "expected": {
+    "bf_pct": 18.952254958986373,
+    "bf_low": 15.232254958986372,
+    "bf_high": 22.67225495898637,
+    "see": 3.72,
+    "density": 1.0555445565418844,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_F-007",
+   "group": "NAVY_F",
+   "function": "navy_body_fat",
+   "description": "F h165 neck32 waist72 hip96",
+   "inputs": {
+    "sex": "F",
+    "height_cm": 165,
+    "neck_cm": 32,
+    "waist_cm": 72,
+    "hip_cm": 96
+   },
+   "expected": {
+    "bf_pct": 26.40588214290193,
+    "bf_low": 22.68588214290193,
+    "bf_high": 30.12588214290193,
+    "see": 3.72,
+    "density": 1.0390299921853623,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_F-008",
+   "group": "NAVY_F",
+   "function": "navy_body_fat",
+   "description": "F h165 neck34 waist82 hip104",
+   "inputs": {
+    "sex": "F",
+    "height_cm": 165,
+    "neck_cm": 34,
+    "waist_cm": 82,
+    "hip_cm": 104
+   },
+   "expected": {
+    "bf_pct": 34.2868853684671,
+    "bf_low": 30.566885368467098,
+    "bf_high": 38.006885368467096,
+    "see": 3.72,
+    "density": 1.0221214221470851,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_F-009",
+   "group": "NAVY_F",
+   "function": "navy_body_fat",
+   "description": "F h165 neck36 waist95 hip115",
+   "inputs": {
+    "sex": "F",
+    "height_cm": 165,
+    "neck_cm": 36,
+    "waist_cm": 95,
+    "hip_cm": 115
+   },
+   "expected": {
+    "bf_pct": 44.22303552305806,
+    "bf_low": 40.50303552305806,
+    "bf_high": 47.94303552305806,
+    "see": 3.72,
+    "density": 1.001572092802432,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_F-010",
+   "group": "NAVY_F",
+   "function": "navy_body_fat",
+   "description": "F h165 neck38 waist110 hip130",
+   "inputs": {
+    "sex": "F",
+    "height_cm": 165,
+    "neck_cm": 38,
+    "waist_cm": 110,
+    "hip_cm": 130
+   },
+   "expected": {
+    "bf_pct": 55.67543635346465,
+    "bf_low": 51.95543635346465,
+    "bf_high": 59.395436353464646,
+    "see": 3.72,
+    "density": 0.9788887583101771,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_F-011",
+   "group": "NAVY_F",
+   "function": "navy_body_fat",
+   "description": "F h180 neck30 waist64 hip88",
+   "inputs": {
+    "sex": "F",
+    "height_cm": 180,
+    "neck_cm": 30,
+    "waist_cm": 64,
+    "hip_cm": 88
+   },
+   "expected": {
+    "bf_pct": 15.271116532745225,
+    "bf_low": 11.551116532745224,
+    "bf_high": 18.991116532745224,
+    "see": 3.72,
+    "density": 1.0638958284984417,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_F-012",
+   "group": "NAVY_F",
+   "function": "navy_body_fat",
+   "description": "F h180 neck32 waist72 hip96",
+   "inputs": {
+    "sex": "F",
+    "height_cm": 180,
+    "neck_cm": 32,
+    "waist_cm": 72,
+    "hip_cm": 96
+   },
+   "expected": {
+    "bf_pct": 22.607270100000335,
+    "bf_low": 18.887270100000336,
+    "bf_high": 26.327270100000334,
+    "see": 3.72,
+    "density": 1.0473812641419196,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_F-013",
+   "group": "NAVY_F",
+   "function": "navy_body_fat",
+   "description": "F h180 neck34 waist82 hip104",
+   "inputs": {
+    "sex": "F",
+    "height_cm": 180,
+    "neck_cm": 34,
+    "waist_cm": 82,
+    "hip_cm": 104
+   },
+   "expected": {
+    "bf_pct": 30.362073475975194,
+    "bf_low": 26.642073475975195,
+    "bf_high": 34.08207347597519,
+    "see": 3.72,
+    "density": 1.0304726941036424,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_F-014",
+   "group": "NAVY_F",
+   "function": "navy_body_fat",
+   "description": "F h180 neck36 waist95 hip115",
+   "inputs": {
+    "sex": "F",
+    "height_cm": 180,
+    "neck_cm": 36,
+    "waist_cm": 95,
+    "hip_cm": 115
+   },
+   "expected": {
+    "bf_pct": 40.13619970870565,
+    "bf_low": 36.41619970870565,
+    "bf_high": 43.856199708705645,
+    "see": 3.72,
+    "density": 1.0099233647589894,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "NAVY_F-015",
+   "group": "NAVY_F",
+   "function": "navy_body_fat",
+   "description": "F h180 neck38 waist110 hip130",
+   "inputs": {
+    "sex": "F",
+    "height_cm": 180,
+    "neck_cm": 38,
+    "waist_cm": 110,
+    "hip_cm": 130
+   },
+   "expected": {
+    "bf_pct": 51.39782102054755,
+    "bf_low": 47.677821020547555,
+    "bf_high": 55.11782102054755,
+    "see": 3.72,
+    "density": 0.9872400302667343,
+    "method": "tape_navy_1984",
+    "in_validated_range": true,
+    "can_drive_cunningham": false
+   }
+  },
+  {
+   "id": "MASS-001",
+   "group": "MASS",
+   "function": "mass_from_body_fat",
+   "description": "60 kg, 12.0% (device)",
+   "inputs": {
+    "weight_kg": 60,
+    "bf_pct": 12.0,
+    "method": "device"
+   },
+   "expected": {
+    "lbm_kg": 52.8,
+    "fat_kg": 7.2,
+    "method": "device",
+    "rough": false
+   }
+  },
+  {
+   "id": "MASS-002",
+   "group": "MASS",
+   "function": "mass_from_body_fat",
+   "description": "60 kg, 12.0% ±3.52 (tape range)",
+   "inputs": {
+    "weight_kg": 60,
+    "bf_pct": 12.0,
+    "bf_low": 8.48,
+    "bf_high": 15.52,
+    "method": "tape_navy_1984"
+   },
+   "expected": {
+    "lbm_kg": 52.8,
+    "fat_kg": 7.2,
+    "method": "tape_navy_1984",
+    "rough": false,
+    "lbm_low": 50.688,
+    "lbm_high": 54.912,
+    "fat_low": 5.088,
+    "fat_high": 9.312
+   }
+  },
+  {
+   "id": "MASS-003",
+   "group": "MASS",
+   "function": "mass_from_body_fat",
+   "description": "80 kg, 20.0% (device)",
+   "inputs": {
+    "weight_kg": 80,
+    "bf_pct": 20.0,
+    "method": "device"
+   },
+   "expected": {
+    "lbm_kg": 64.0,
+    "fat_kg": 16.0,
+    "method": "device",
+    "rough": false
+   }
+  },
+  {
+   "id": "MASS-004",
+   "group": "MASS",
+   "function": "mass_from_body_fat",
+   "description": "80 kg, 20.0% ±3.52 (tape range)",
+   "inputs": {
+    "weight_kg": 80,
+    "bf_pct": 20.0,
+    "bf_low": 16.48,
+    "bf_high": 23.52,
+    "method": "tape_navy_1984"
+   },
+   "expected": {
+    "lbm_kg": 64.0,
+    "fat_kg": 16.0,
+    "method": "tape_navy_1984",
+    "rough": false,
+    "lbm_low": 61.184000000000005,
+    "lbm_high": 66.816,
+    "fat_low": 13.184000000000001,
+    "fat_high": 18.816
+   }
+  },
+  {
+   "id": "MASS-005",
+   "group": "MASS",
+   "function": "mass_from_body_fat",
+   "description": "100 kg, 30.0% (device)",
+   "inputs": {
+    "weight_kg": 100,
+    "bf_pct": 30.0,
+    "method": "device"
+   },
+   "expected": {
+    "lbm_kg": 70.0,
+    "fat_kg": 30.0,
+    "method": "device",
+    "rough": false
+   }
+  },
+  {
+   "id": "MASS-006",
+   "group": "MASS",
+   "function": "mass_from_body_fat",
+   "description": "100 kg, 30.0% ±3.52 (tape range)",
+   "inputs": {
+    "weight_kg": 100,
+    "bf_pct": 30.0,
+    "bf_low": 26.48,
+    "bf_high": 33.52,
+    "method": "tape_navy_1984"
+   },
+   "expected": {
+    "lbm_kg": 70.0,
+    "fat_kg": 30.0,
+    "method": "tape_navy_1984",
+    "rough": false,
+    "lbm_low": 66.47999999999999,
+    "lbm_high": 73.52000000000001,
+    "fat_low": 26.48,
+    "fat_high": 33.52
+   }
+  },
+  {
+   "id": "MASS-007",
+   "group": "MASS",
+   "function": "mass_from_body_fat",
+   "description": "120 kg, 40.0% (device)",
+   "inputs": {
+    "weight_kg": 120,
+    "bf_pct": 40.0,
+    "method": "device"
+   },
+   "expected": {
+    "lbm_kg": 72.0,
+    "fat_kg": 48.0,
+    "method": "device",
+    "rough": false
+   }
+  },
+  {
+   "id": "MASS-008",
+   "group": "MASS",
+   "function": "mass_from_body_fat",
+   "description": "120 kg, 40.0% ±3.52 (tape range)",
+   "inputs": {
+    "weight_kg": 120,
+    "bf_pct": 40.0,
+    "bf_low": 36.48,
+    "bf_high": 43.52,
+    "method": "tape_navy_1984"
+   },
+   "expected": {
+    "lbm_kg": 72.0,
+    "fat_kg": 48.0,
+    "method": "tape_navy_1984",
+    "rough": false,
+    "lbm_low": 67.776,
+    "lbm_high": 76.224,
+    "fat_low": 43.775999999999996,
+    "fat_high": 52.224000000000004
+   }
+  },
+  {
+   "id": "BOER-001",
+   "group": "BOER",
+   "function": "lbm_boer",
+   "description": "M 55 kg 160 cm",
+   "inputs": {
+    "sex": "M",
+    "weight_kg": 55,
+    "height_cm": 160
+   },
+   "expected": {
+    "lbm_kg": 45.90499999999999,
+    "fat_kg": 9.095000000000013,
+    "bf_pct": 16.53636363636366,
+    "method": "boer_1984",
+    "rough": true
+   }
+  },
+  {
+   "id": "BOER-002",
+   "group": "BOER",
+   "function": "lbm_boer",
+   "description": "M 70 kg 170 cm",
+   "inputs": {
+    "sex": "M",
+    "weight_kg": 70,
+    "height_cm": 170
+   },
+   "expected": {
+    "lbm_kg": 54.67999999999999,
+    "fat_kg": 15.320000000000007,
+    "bf_pct": 21.885714285714297,
+    "method": "boer_1984",
+    "rough": true
+   }
+  },
+  {
+   "id": "BOER-003",
+   "group": "BOER",
+   "function": "lbm_boer",
+   "description": "M 85 kg 180 cm",
+   "inputs": {
+    "sex": "M",
+    "weight_kg": 85,
+    "height_cm": 180
+   },
+   "expected": {
+    "lbm_kg": 63.455,
+    "fat_kg": 21.545,
+    "bf_pct": 25.347058823529412,
+    "method": "boer_1984",
+    "rough": true
+   }
+  },
+  {
+   "id": "BOER-004",
+   "group": "BOER",
+   "function": "lbm_boer",
+   "description": "M 110 kg 175 cm",
+   "inputs": {
+    "sex": "M",
+    "weight_kg": 110,
+    "height_cm": 175
+   },
+   "expected": {
+    "lbm_kg": 72.295,
+    "fat_kg": 37.705,
+    "bf_pct": 34.27727272727273,
+    "method": "boer_1984",
+    "rough": true
+   }
+  },
+  {
+   "id": "BOER-005",
+   "group": "BOER",
+   "function": "lbm_boer",
+   "description": "M 150 kg 185 cm",
+   "inputs": {
+    "sex": "M",
+    "weight_kg": 150,
+    "height_cm": 185
+   },
+   "expected": {
+    "lbm_kg": 91.24499999999999,
+    "fat_kg": 58.75500000000001,
+    "bf_pct": 39.17,
+    "method": "boer_1984",
+    "rough": true
+   }
+  },
+  {
+   "id": "BOER-006",
+   "group": "BOER",
+   "function": "lbm_boer",
+   "description": "F 55 kg 160 cm",
+   "inputs": {
+    "sex": "F",
+    "weight_kg": 55,
+    "height_cm": 160
+   },
+   "expected": {
+    "lbm_kg": 41.239999999999995,
+    "fat_kg": 13.760000000000005,
+    "bf_pct": 25.01818181818183,
+    "method": "boer_1984",
+    "rough": true
+   }
+  },
+  {
+   "id": "BOER-007",
+   "group": "BOER",
+   "function": "lbm_boer",
+   "description": "F 70 kg 170 cm",
+   "inputs": {
+    "sex": "F",
+    "weight_kg": 70,
+    "height_cm": 170
+   },
+   "expected": {
+    "lbm_kg": 49.75,
+    "fat_kg": 20.25,
+    "bf_pct": 28.92857142857143,
+    "method": "boer_1984",
+    "rough": true
+   }
+  },
+  {
+   "id": "BOER-008",
+   "group": "BOER",
+   "function": "lbm_boer",
+   "description": "F 85 kg 180 cm",
+   "inputs": {
+    "sex": "F",
+    "weight_kg": 85,
+    "height_cm": 180
+   },
+   "expected": {
+    "lbm_kg": 58.260000000000005,
+    "fat_kg": 26.739999999999995,
+    "bf_pct": 31.45882352941176,
+    "method": "boer_1984",
+    "rough": true
+   }
+  },
+  {
+   "id": "BOER-009",
+   "group": "BOER",
+   "function": "lbm_boer",
+   "description": "F 110 kg 175 cm",
+   "inputs": {
+    "sex": "F",
+    "weight_kg": 110,
+    "height_cm": 175
+   },
+   "expected": {
+    "lbm_kg": 62.19499999999999,
+    "fat_kg": 47.80500000000001,
+    "bf_pct": 43.45909090909091,
+    "method": "boer_1984",
+    "rough": true
+   }
+  },
+  {
+   "id": "BOER-010",
+   "group": "BOER",
+   "function": "lbm_boer",
+   "description": "F 150 kg 185 cm",
+   "inputs": {
+    "sex": "F",
+    "weight_kg": 150,
+    "height_cm": 185
+   },
+   "expected": {
+    "lbm_kg": 77.005,
+    "fat_kg": 72.995,
+    "bf_pct": 48.663333333333334,
+    "method": "boer_1984",
+    "rough": true
+   }
+  },
+  {
+   "id": "RATIO-001",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "M adult waist 60, h170, hip 100",
+   "inputs": {
+    "sex": "M",
+    "age": 30,
+    "height_cm": 170,
+    "waist_cm": 60,
+    "hip_cm": 100,
+    "bmi": 26.0
+   },
+   "expected": {
+    "whtr": 0.35294117647058826,
+    "whtr_class": "below_0_4",
+    "whtr_applies": true,
+    "waist_class": "not_increased",
+    "whr": 0.6,
+    "whr_class": "not_increased"
+   }
+  },
+  {
+   "id": "RATIO-002",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "M adult waist 75, h170, hip 100",
+   "inputs": {
+    "sex": "M",
+    "age": 30,
+    "height_cm": 170,
+    "waist_cm": 75,
+    "hip_cm": 100,
+    "bmi": 26.0
+   },
+   "expected": {
+    "whtr": 0.4411764705882353,
+    "whtr_class": "healthy",
+    "whtr_applies": true,
+    "waist_class": "not_increased",
+    "whr": 0.75,
+    "whr_class": "not_increased"
+   }
+  },
+  {
+   "id": "RATIO-003",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "M adult waist 85, h170, hip 100",
+   "inputs": {
+    "sex": "M",
+    "age": 30,
+    "height_cm": 170,
+    "waist_cm": 85,
+    "hip_cm": 100,
+    "bmi": 26.0
+   },
+   "expected": {
+    "whtr": 0.5,
+    "whtr_class": "increased",
+    "whtr_applies": true,
+    "waist_class": "not_increased",
+    "whr": 0.85,
+    "whr_class": "not_increased"
+   }
+  },
+  {
+   "id": "RATIO-004",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "M adult waist 88, h170, hip 100",
+   "inputs": {
+    "sex": "M",
+    "age": 30,
+    "height_cm": 170,
+    "waist_cm": 88,
+    "hip_cm": 100,
+    "bmi": 26.0
+   },
+   "expected": {
+    "whtr": 0.5176470588235295,
+    "whtr_class": "increased",
+    "whtr_applies": true,
+    "waist_class": "not_increased",
+    "whr": 0.88,
+    "whr_class": "not_increased"
+   }
+  },
+  {
+   "id": "RATIO-005",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "M adult waist 95, h170, hip 100",
+   "inputs": {
+    "sex": "M",
+    "age": 30,
+    "height_cm": 170,
+    "waist_cm": 95,
+    "hip_cm": 100,
+    "bmi": 26.0
+   },
+   "expected": {
+    "whtr": 0.5588235294117647,
+    "whtr_class": "increased",
+    "whtr_applies": true,
+    "waist_class": "increased",
+    "whr": 0.95,
+    "whr_class": "substantially_increased"
+   }
+  },
+  {
+   "id": "RATIO-006",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "M adult waist 102, h170, hip 100",
+   "inputs": {
+    "sex": "M",
+    "age": 30,
+    "height_cm": 170,
+    "waist_cm": 102,
+    "hip_cm": 100,
+    "bmi": 26.0
+   },
+   "expected": {
+    "whtr": 0.6,
+    "whtr_class": "high",
+    "whtr_applies": true,
+    "waist_class": "substantially_increased",
+    "whr": 1.02,
+    "whr_class": "substantially_increased"
+   }
+  },
+  {
+   "id": "RATIO-007",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "M adult waist 110, h170, hip 100",
+   "inputs": {
+    "sex": "M",
+    "age": 30,
+    "height_cm": 170,
+    "waist_cm": 110,
+    "hip_cm": 100,
+    "bmi": 26.0
+   },
+   "expected": {
+    "whtr": 0.6470588235294118,
+    "whtr_class": "high",
+    "whtr_applies": true,
+    "waist_class": "substantially_increased",
+    "whr": 1.1,
+    "whr_class": "substantially_increased"
+   }
+  },
+  {
+   "id": "RATIO-008",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "F adult waist 60, h170, hip 100",
+   "inputs": {
+    "sex": "F",
+    "age": 30,
+    "height_cm": 170,
+    "waist_cm": 60,
+    "hip_cm": 100,
+    "bmi": 26.0
+   },
+   "expected": {
+    "whtr": 0.35294117647058826,
+    "whtr_class": "below_0_4",
+    "whtr_applies": true,
+    "waist_class": "not_increased",
+    "whr": 0.6,
+    "whr_class": "not_increased"
+   }
+  },
+  {
+   "id": "RATIO-009",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "F adult waist 75, h170, hip 100",
+   "inputs": {
+    "sex": "F",
+    "age": 30,
+    "height_cm": 170,
+    "waist_cm": 75,
+    "hip_cm": 100,
+    "bmi": 26.0
+   },
+   "expected": {
+    "whtr": 0.4411764705882353,
+    "whtr_class": "healthy",
+    "whtr_applies": true,
+    "waist_class": "not_increased",
+    "whr": 0.75,
+    "whr_class": "not_increased"
+   }
+  },
+  {
+   "id": "RATIO-010",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "F adult waist 85, h170, hip 100",
+   "inputs": {
+    "sex": "F",
+    "age": 30,
+    "height_cm": 170,
+    "waist_cm": 85,
+    "hip_cm": 100,
+    "bmi": 26.0
+   },
+   "expected": {
+    "whtr": 0.5,
+    "whtr_class": "increased",
+    "whtr_applies": true,
+    "waist_class": "increased",
+    "whr": 0.85,
+    "whr_class": "substantially_increased"
+   }
+  },
+  {
+   "id": "RATIO-011",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "F adult waist 88, h170, hip 100",
+   "inputs": {
+    "sex": "F",
+    "age": 30,
+    "height_cm": 170,
+    "waist_cm": 88,
+    "hip_cm": 100,
+    "bmi": 26.0
+   },
+   "expected": {
+    "whtr": 0.5176470588235295,
+    "whtr_class": "increased",
+    "whtr_applies": true,
+    "waist_class": "substantially_increased",
+    "whr": 0.88,
+    "whr_class": "substantially_increased"
+   }
+  },
+  {
+   "id": "RATIO-012",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "F adult waist 95, h170, hip 100",
+   "inputs": {
+    "sex": "F",
+    "age": 30,
+    "height_cm": 170,
+    "waist_cm": 95,
+    "hip_cm": 100,
+    "bmi": 26.0
+   },
+   "expected": {
+    "whtr": 0.5588235294117647,
+    "whtr_class": "increased",
+    "whtr_applies": true,
+    "waist_class": "substantially_increased",
+    "whr": 0.95,
+    "whr_class": "substantially_increased"
+   }
+  },
+  {
+   "id": "RATIO-013",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "F adult waist 102, h170, hip 100",
+   "inputs": {
+    "sex": "F",
+    "age": 30,
+    "height_cm": 170,
+    "waist_cm": 102,
+    "hip_cm": 100,
+    "bmi": 26.0
+   },
+   "expected": {
+    "whtr": 0.6,
+    "whtr_class": "high",
+    "whtr_applies": true,
+    "waist_class": "substantially_increased",
+    "whr": 1.02,
+    "whr_class": "substantially_increased"
+   }
+  },
+  {
+   "id": "RATIO-014",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "F adult waist 110, h170, hip 100",
+   "inputs": {
+    "sex": "F",
+    "age": 30,
+    "height_cm": 170,
+    "waist_cm": 110,
+    "hip_cm": 100,
+    "bmi": 26.0
+   },
+   "expected": {
+    "whtr": 0.6470588235294118,
+    "whtr_class": "high",
+    "whtr_applies": true,
+    "waist_class": "substantially_increased",
+    "whr": 1.1,
+    "whr_class": "substantially_increased"
+   }
+  },
+  {
+   "id": "RATIO-015",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "WHtR exactly 0.5",
+   "inputs": {
+    "sex": "M",
+    "age": 30,
+    "height_cm": 180,
+    "waist_cm": 90,
+    "hip_cm": 100,
+    "bmi": 24.0
+   },
+   "expected": {
+    "whtr": 0.5,
+    "whtr_class": "increased",
+    "whtr_applies": true,
+    "waist_class": "not_increased",
+    "whr": 0.9,
+    "whr_class": "substantially_increased"
+   }
+  },
+  {
+   "id": "RATIO-016",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "WHtR exactly 0.6",
+   "inputs": {
+    "sex": "F",
+    "age": 30,
+    "height_cm": 150,
+    "waist_cm": 90,
+    "hip_cm": 110,
+    "bmi": 30.0
+   },
+   "expected": {
+    "whtr": 0.6,
+    "whtr_class": "high",
+    "whtr_applies": true,
+    "waist_class": "substantially_increased",
+    "whr": 0.8181818181818182,
+    "whr_class": "not_increased"
+   }
+  },
+  {
+   "id": "RATIO-017",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "BMI 36: WHtR not applicable",
+   "inputs": {
+    "sex": "F",
+    "age": 40,
+    "height_cm": 160,
+    "waist_cm": 105,
+    "hip_cm": 120,
+    "bmi": 36.0
+   },
+   "expected": {
+    "whtr": 0.65625,
+    "whtr_class": "high",
+    "whtr_applies": false,
+    "waist_class": "substantially_increased",
+    "whr": 0.875,
+    "whr_class": "substantially_increased"
+   }
+  },
+  {
+   "id": "RATIO-018",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "teen: WHtR only, no adult cut-offs",
+   "inputs": {
+    "sex": "M",
+    "age": 16,
+    "height_cm": 175,
+    "waist_cm": 80,
+    "hip_cm": 92,
+    "bmi": 21.0
+   },
+   "expected": {
+    "whtr": 0.45714285714285713,
+    "whtr_class": "healthy",
+    "whtr_applies": true,
+    "waist_class": null,
+    "whr": 0.8695652173913043,
+    "whr_class": null
+   }
+  },
+  {
+   "id": "RATIO-019",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "WHR exactly 0.90 man",
+   "inputs": {
+    "sex": "M",
+    "age": 30,
+    "height_cm": 175,
+    "waist_cm": 90,
+    "hip_cm": 100,
+    "bmi": 25.0
+   },
+   "expected": {
+    "whtr": 0.5142857142857142,
+    "whtr_class": "increased",
+    "whtr_applies": true,
+    "waist_class": "not_increased",
+    "whr": 0.9,
+    "whr_class": "substantially_increased"
+   }
+  },
+  {
+   "id": "RATIO-020",
+   "group": "RATIO",
+   "function": "waist_ratios",
+   "description": "WHR exactly 0.85 woman",
+   "inputs": {
+    "sex": "F",
+    "age": 30,
+    "height_cm": 165,
+    "waist_cm": 85,
+    "hip_cm": 100,
+    "bmi": 25.0
+   },
+   "expected": {
+    "whtr": 0.5151515151515151,
+    "whtr_class": "increased",
+    "whtr_applies": true,
+    "waist_class": "increased",
+    "whr": 0.85,
+    "whr_class": "substantially_increased"
+   }
+  },
+  {
+   "id": "HWR-001",
+   "group": "HWR",
+   "function": "healthy_weight_range",
+   "description": "adult 150 cm",
+   "inputs": {
+    "height_cm": 150,
+    "age": 30
+   },
+   "expected": {
+    "min_kg": 41.625,
+    "max_kg": 56.25,
+    "max_exclusive": true,
+    "basis": "adult_bmi_18.5_25"
+   }
+  },
+  {
+   "id": "HWR-002",
+   "group": "HWR",
+   "function": "healthy_weight_range",
+   "description": "adult 160 cm",
+   "inputs": {
+    "height_cm": 160,
+    "age": 30
+   },
+   "expected": {
+    "min_kg": 47.36000000000001,
+    "max_kg": 64.00000000000001,
+    "max_exclusive": true,
+    "basis": "adult_bmi_18.5_25"
+   }
+  },
+  {
+   "id": "HWR-003",
+   "group": "HWR",
+   "function": "healthy_weight_range",
+   "description": "adult 170 cm",
+   "inputs": {
+    "height_cm": 170,
+    "age": 30
+   },
+   "expected": {
+    "min_kg": 53.464999999999996,
+    "max_kg": 72.24999999999999,
+    "max_exclusive": true,
+    "basis": "adult_bmi_18.5_25"
+   }
+  },
+  {
+   "id": "HWR-004",
+   "group": "HWR",
+   "function": "healthy_weight_range",
+   "description": "adult 180 cm",
+   "inputs": {
+    "height_cm": 180,
+    "age": 30
+   },
+   "expected": {
+    "min_kg": 59.940000000000005,
+    "max_kg": 81.0,
+    "max_exclusive": true,
+    "basis": "adult_bmi_18.5_25"
+   }
+  },
+  {
+   "id": "HWR-005",
+   "group": "HWR",
+   "function": "healthy_weight_range",
+   "description": "adult 190 cm",
+   "inputs": {
+    "height_cm": 190,
+    "age": 30
+   },
+   "expected": {
+    "min_kg": 66.785,
+    "max_kg": 90.25,
+    "max_exclusive": true,
+    "basis": "adult_bmi_18.5_25"
+   }
+  },
+  {
+   "id": "HWR-006",
+   "group": "HWR",
+   "function": "healthy_weight_range",
+   "description": "adult 200 cm",
+   "inputs": {
+    "height_cm": 200,
+    "age": 30
+   },
+   "expected": {
+    "min_kg": 74.0,
+    "max_kg": 100.0,
+    "max_exclusive": true,
+    "basis": "adult_bmi_18.5_25"
+   }
+  },
+  {
+   "id": "HWR-007",
+   "group": "HWR",
+   "function": "healthy_weight_range",
+   "description": "teen M 192 months 170 cm",
+   "inputs": {
+    "height_cm": 170,
+    "age": 16,
+    "sex": "M",
+    "age_months": 192
+   },
+   "expected": {
+    "min_kg": 47.69920622708109,
+    "max_kg": 67.98790724073667,
+    "max_exclusive": false,
+    "basis": "who2007_z_-2_to_+1"
+   }
+  },
+  {
+   "id": "HWR-008",
+   "group": "HWR",
+   "function": "healthy_weight_range",
+   "description": "teen M 204 months 170 cm",
+   "inputs": {
+    "height_cm": 170,
+    "age": 17,
+    "sex": "M",
+    "age_months": 204
+   },
+   "expected": {
+    "min_kg": 48.93575892323195,
+    "max_kg": 70.13765016889428,
+    "max_exclusive": false,
+    "basis": "who2007_z_-2_to_+1"
+   }
+  },
+  {
+   "id": "HWR-009",
+   "group": "HWR",
+   "function": "healthy_weight_range",
+   "description": "teen M 215 months 170 cm",
+   "inputs": {
+    "height_cm": 170,
+    "age": 17,
+    "sex": "M",
+    "age_months": 215
+   },
+   "expected": {
+    "min_kg": 49.87562356671812,
+    "max_kg": 71.84897947841738,
+    "max_exclusive": false,
+    "basis": "who2007_z_-2_to_+1"
+   }
+  },
+  {
+   "id": "HWR-010",
+   "group": "HWR",
+   "function": "healthy_weight_range",
+   "description": "teen F 192 months 170 cm",
+   "inputs": {
+    "height_cm": 170,
+    "age": 16,
+    "sex": "F",
+    "age_months": 192
+   },
+   "expected": {
+    "min_kg": 46.73592701566777,
+    "max_kg": 69.65211776733032,
+    "max_exclusive": false,
+    "basis": "who2007_z_-2_to_+1"
+   }
+  },
+  {
+   "id": "HWR-011",
+   "group": "HWR",
+   "function": "healthy_weight_range",
+   "description": "teen F 204 months 170 cm",
+   "inputs": {
+    "height_cm": 170,
+    "age": 17,
+    "sex": "F",
+    "age_months": 204
+   },
+   "expected": {
+    "min_kg": 47.26369660040398,
+    "max_kg": 70.81426252020987,
+    "max_exclusive": false,
+    "basis": "who2007_z_-2_to_+1"
+   }
+  },
+  {
+   "id": "HWR-012",
+   "group": "HWR",
+   "function": "healthy_weight_range",
+   "description": "teen F 215 months 170 cm",
+   "inputs": {
+    "height_cm": 170,
+    "age": 17,
+    "sex": "F",
+    "age_months": 215
+   },
+   "expected": {
+    "min_kg": 47.519815061940776,
+    "max_kg": 71.52842512254769,
+    "max_exclusive": false,
+    "basis": "who2007_z_-2_to_+1"
+   }
+  }
+ ]
+}

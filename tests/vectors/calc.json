@@ -1,5 +1,5 @@
 {
- "spec_version": "1.1",
+ "spec_version": "1.2",
  "tolerance_abs": 1e-06,
  "count": 411,
  "note": "No rounding anywhere. Teens are classified from the WHO 2007 LMS table.",
@@ -40,7 +40,7 @@
     "protein_capped": false,
     "fat_g": 52.968849206349205,
     "carbs_g": 197.53973214285713,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -72,7 +72,7 @@
     "protein_capped": false,
     "fat_g": 45.19097222222222,
     "carbs_g": 209.0390625,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -107,7 +107,7 @@
     "protein_capped": false,
     "fat_g": 54.125,
     "carbs_g": 200.95625,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -140,7 +140,7 @@
     "protein_capped": true,
     "fat_g": 72.23958333333333,
     "carbs_g": 216.71875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -181,7 +181,7 @@
     "protein_capped": false,
     "fat_g": 86.70380877976191,
     "carbs_g": 359.1949960937501,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -213,7 +213,7 @@
     "protein_capped": false,
     "fat_g": 63.32465277777778,
     "carbs_g": 243.69140625,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -245,7 +245,7 @@
     "protein_capped": true,
     "fat_g": 41.229166666666664,
     "carbs_g": 148.425,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -277,7 +277,7 @@
     "protein_capped": true,
     "fat_g": 38.73046875,
     "carbs_g": 139.4296875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -311,7 +311,7 @@
     "protein_capped": false,
     "fat_g": 33.333333333333336,
     "carbs_g": 125.0,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -345,7 +345,7 @@
     "protein_capped": false,
     "fat_g": 44.40972222222222,
     "carbs_g": 219.765625,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -385,7 +385,7 @@
     "protein_capped": false,
     "fat_g": 72.43402777777777,
     "carbs_g": 352.9296875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -419,7 +419,7 @@
     "protein_capped": false,
     "fat_g": 69.40104166666667,
     "carbs_g": 321.45703125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -464,7 +464,7 @@
     "protein_capped": false,
     "fat_g": 101.50927414021163,
     "carbs_g": 585.9876004464286,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -504,7 +504,7 @@
     "protein_capped": false,
     "fat_g": 60.81417989417989,
     "carbs_g": 230.49571428571426,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -543,7 +543,7 @@
     "protein_capped": true,
     "fat_g": 55.25899470899471,
     "carbs_g": 198.93238095238098,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -583,7 +583,7 @@
     "protein_capped": false,
     "fat_g": 45.86990654761904,
     "carbs_g": 169.62186919642852,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -616,7 +616,7 @@
     "protein_capped": false,
     "fat_g": 74.78177083333333,
     "carbs_g": 331.376953125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -648,7 +648,7 @@
     "protein_capped": false,
     "fat_g": 46.27256944444445,
     "carbs_g": 235.53984375000005,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -683,7 +683,7 @@
     "protein_capped": false,
     "fat_g": 48.395833333333336,
     "carbs_g": 190.078125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -727,7 +727,7 @@
     "protein_capped": false,
     "fat_g": 53.54479832175926,
     "carbs_g": 257.42738867187506,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -761,7 +761,7 @@
     "protein_capped": false,
     "fat_g": 50.32152777777778,
     "carbs_g": 254.58871250000004,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -793,7 +793,7 @@
     "protein_capped": false,
     "fat_g": 55.35368055555556,
     "carbs_g": 288.5557437500001,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -825,7 +825,7 @@
     "protein_capped": false,
     "fat_g": 50.32152777777778,
     "carbs_g": 254.58871250000004,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -859,7 +859,7 @@
     "protein_capped": false,
     "fat_g": 44.55763888888889,
     "carbs_g": 215.68246250000004,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -891,7 +891,7 @@
     "protein_capped": false,
     "fat_g": 49.013402777777785,
     "carbs_g": 245.7588687500001,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -923,7 +923,7 @@
     "protein_capped": false,
     "fat_g": 44.55763888888889,
     "carbs_g": 215.68246250000004,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -957,7 +957,7 @@
     "protein_capped": false,
     "fat_g": 41.666666666666664,
     "carbs_g": 174.32,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -989,7 +989,7 @@
     "protein_capped": false,
     "fat_g": 55.464062500000004,
     "carbs_g": 288.83842187500005,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1021,7 +1021,7 @@
     "protein_capped": false,
     "fat_g": 50.421875,
     "carbs_g": 254.80365625000002,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1053,7 +1053,7 @@
     "protein_capped": false,
     "fat_g": 35.72638888888889,
     "carbs_g": 134.223125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1085,7 +1085,7 @@
     "protein_capped": false,
     "fat_g": 49.123784722222226,
     "carbs_g": 246.04154687500005,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1117,7 +1117,7 @@
     "protein_capped": false,
     "fat_g": 44.657986111111114,
     "carbs_g": 215.89740625000002,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1149,7 +1149,7 @@
     "protein_capped": true,
     "fat_g": 45.475277777777784,
     "carbs_g": 163.71100000000004,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1181,7 +1181,7 @@
     "protein_capped": false,
     "fat_g": 62.52850694444445,
     "carbs_g": 306.929821875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1213,7 +1213,7 @@
     "protein_capped": false,
     "fat_g": 56.84409722222223,
     "carbs_g": 268.56005625,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1245,7 +1245,7 @@
     "protein_capped": true,
     "fat_g": 40.86416666666667,
     "carbs_g": 147.11100000000002,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1277,7 +1277,7 @@
     "protein_capped": false,
     "fat_g": 56.18822916666668,
     "carbs_g": 264.1329468750001,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1309,7 +1309,7 @@
     "protein_capped": false,
     "fat_g": 51.08020833333334,
     "carbs_g": 229.65380625000003,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1341,7 +1341,7 @@
     "protein_capped": true,
     "fat_g": 45.55555555555556,
     "carbs_g": 164.0,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1373,7 +1373,7 @@
     "protein_capped": false,
     "fat_g": 62.638888888888886,
     "carbs_g": 307.2125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1405,7 +1405,7 @@
     "protein_capped": false,
     "fat_g": 56.94444444444444,
     "carbs_g": 268.775,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1437,7 +1437,7 @@
     "protein_capped": true,
     "fat_g": 40.94444444444444,
     "carbs_g": 147.4,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1469,7 +1469,7 @@
     "protein_capped": false,
     "fat_g": 56.298611111111114,
     "carbs_g": 264.41562500000003,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1501,7 +1501,7 @@
     "protein_capped": false,
     "fat_g": 51.18055555555556,
     "carbs_g": 229.86874999999998,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1533,7 +1533,7 @@
     "protein_capped": true,
     "fat_g": 49.48916666666667,
     "carbs_g": 178.16100000000003,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1565,7 +1565,7 @@
     "protein_capped": false,
     "fat_g": 68.04760416666667,
     "carbs_g": 321.063728125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1597,7 +1597,7 @@
     "protein_capped": false,
     "fat_g": 61.86145833333334,
     "carbs_g": 279.30724375,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1629,7 +1629,7 @@
     "protein_capped": true,
     "fat_g": 44.87805555555556,
     "carbs_g": 161.56100000000006,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1661,7 +1661,7 @@
     "protein_capped": false,
     "fat_g": 61.7073263888889,
     "carbs_g": 278.266853125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1693,7 +1693,7 @@
     "protein_capped": false,
     "fat_g": 56.09756944444445,
     "carbs_g": 240.40099375000003,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1725,7 +1725,7 @@
     "protein_capped": true,
     "fat_g": 48.072916666666664,
     "carbs_g": 173.0625,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1759,7 +1759,7 @@
     "protein_capped": false,
     "fat_g": 61.96180555555556,
     "carbs_g": 279.5221875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1791,7 +1791,7 @@
     "protein_capped": false,
     "fat_g": 61.96180555555556,
     "carbs_g": 279.5221875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1823,7 +1823,7 @@
     "protein_capped": true,
     "fat_g": 42.30902777777778,
     "carbs_g": 152.3125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1857,7 +1857,7 @@
     "protein_capped": false,
     "fat_g": 56.197916666666664,
     "carbs_g": 240.61593749999997,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1889,7 +1889,7 @@
     "protein_capped": false,
     "fat_g": 56.197916666666664,
     "carbs_g": 240.61593749999997,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1921,7 +1921,7 @@
     "protein_capped": true,
     "fat_g": 52.98993055555555,
     "carbs_g": 190.76375000000002,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1955,7 +1955,7 @@
     "protein_capped": false,
     "fat_g": 66.87881944444445,
     "carbs_g": 312.71203124999994,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -1987,7 +1987,7 @@
     "protein_capped": false,
     "fat_g": 66.87881944444445,
     "carbs_g": 312.71203124999994,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2019,7 +2019,7 @@
     "protein_capped": true,
     "fat_g": 47.22604166666666,
     "carbs_g": 170.01375000000002,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2053,7 +2053,7 @@
     "protein_capped": false,
     "fat_g": 61.11493055555555,
     "carbs_g": 273.80578124999994,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2085,7 +2085,7 @@
     "protein_capped": false,
     "fat_g": 61.11493055555555,
     "carbs_g": 273.80578124999994,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2117,7 +2117,7 @@
     "protein_capped": true,
     "fat_g": 53.09027777777778,
     "carbs_g": 191.125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2151,7 +2151,7 @@
     "protein_capped": false,
     "fat_g": 66.97916666666667,
     "carbs_g": 313.389375,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2183,7 +2183,7 @@
     "protein_capped": false,
     "fat_g": 66.97916666666667,
     "carbs_g": 313.389375,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2215,7 +2215,7 @@
     "protein_capped": true,
     "fat_g": 47.326388888888886,
     "carbs_g": 170.375,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2249,7 +2249,7 @@
     "protein_capped": false,
     "fat_g": 61.21527777777778,
     "carbs_g": 274.483125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2281,7 +2281,7 @@
     "protein_capped": false,
     "fat_g": 61.21527777777778,
     "carbs_g": 274.483125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2313,7 +2313,7 @@
     "protein_capped": false,
     "fat_g": 58.00729166666666,
     "carbs_g": 218.14921875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2347,7 +2347,7 @@
     "protein_capped": false,
     "fat_g": 71.89618055555555,
     "carbs_g": 346.57921874999994,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2379,7 +2379,7 @@
     "protein_capped": false,
     "fat_g": 71.89618055555555,
     "carbs_g": 346.57921874999994,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2411,7 +2411,7 @@
     "protein_capped": true,
     "fat_g": 52.243402777777774,
     "carbs_g": 188.07625000000002,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2445,7 +2445,7 @@
     "protein_capped": false,
     "fat_g": 66.13229166666666,
     "carbs_g": 307.67296874999994,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2477,7 +2477,7 @@
     "protein_capped": false,
     "fat_g": 66.13229166666666,
     "carbs_g": 307.67296874999994,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2509,7 +2509,7 @@
     "protein_capped": false,
     "fat_g": 58.107638888888886,
     "carbs_g": 218.82656250000002,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2543,7 +2543,7 @@
     "protein_capped": false,
     "fat_g": 71.99652777777777,
     "carbs_g": 347.2565625,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2575,7 +2575,7 @@
     "protein_capped": false,
     "fat_g": 71.99652777777777,
     "carbs_g": 347.2565625,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2607,7 +2607,7 @@
     "protein_capped": true,
     "fat_g": 52.34375,
     "carbs_g": 188.4375,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2641,7 +2641,7 @@
     "protein_capped": false,
     "fat_g": 66.23263888888889,
     "carbs_g": 308.3503125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2673,7 +2673,7 @@
     "protein_capped": false,
     "fat_g": 66.23263888888889,
     "carbs_g": 308.3503125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2708,7 +2708,7 @@
     "protein_capped": false,
     "fat_g": 60.17323019298564,
     "carbs_g": 246.04425457210974,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2741,7 +2741,7 @@
     "protein_capped": false,
     "fat_g": 66.19055321228421,
     "carbs_g": 277.63520042342725,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2774,7 +2774,7 @@
     "protein_capped": false,
     "fat_g": 60.17323019298564,
     "carbs_g": 246.04425457210974,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2809,7 +2809,7 @@
     "protein_capped": false,
     "fat_g": 60.96990511815591,
     "carbs_g": 247.1675662165998,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2842,7 +2842,7 @@
     "protein_capped": false,
     "fat_g": 67.0668956299715,
     "carbs_g": 279.1767664036317,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2875,7 +2875,7 @@
     "protein_capped": false,
     "fat_g": 60.96990511815591,
     "carbs_g": 247.1675662165998,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2910,7 +2910,7 @@
     "protein_capped": false,
     "fat_g": 66.65868291666666,
     "carbs_g": 255.18874291250003,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2943,7 +2943,7 @@
     "protein_capped": false,
     "fat_g": 73.32455120833333,
     "carbs_g": 290.18455144374997,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -2976,7 +2976,7 @@
     "protein_capped": false,
     "fat_g": 66.65868291666666,
     "carbs_g": 255.18874291250003,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3009,7 +3009,7 @@
     "protein_capped": true,
     "fat_g": 58.13267726915706,
     "carbs_g": 174.39803180747123,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3042,7 +3042,7 @@
     "protein_capped": false,
     "fat_g": 79.93243124509098,
     "carbs_g": 301.8084131447737,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3075,7 +3075,7 @@
     "protein_capped": false,
     "fat_g": 72.66584658644632,
     "carbs_g": 263.6588436868893,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3108,7 +3108,7 @@
     "protein_capped": true,
     "fat_g": 62.48587446147154,
     "carbs_g": 187.45762338441466,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3143,7 +3143,7 @@
     "protein_capped": false,
     "fat_g": 79.15254112813821,
     "carbs_g": 276.8308409227256,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3176,7 +3176,7 @@
     "protein_capped": false,
     "fat_g": 79.15254112813821,
     "carbs_g": 276.8308409227256,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3211,7 +3211,7 @@
     "protein_capped": false,
     "fat_g": 52.62640776475015,
     "carbs_g": 208.8432349482977,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3244,7 +3244,7 @@
     "protein_capped": false,
     "fat_g": 57.889048541225165,
     "carbs_g": 236.47209902479153,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3277,7 +3277,7 @@
     "protein_capped": false,
     "fat_g": 52.62640776475015,
     "carbs_g": 208.8432349482977,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3312,7 +3312,7 @@
     "protein_capped": false,
     "fat_g": 53.53098387476153,
     "carbs_g": 210.1186872634138,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3345,7 +3345,7 @@
     "protein_capped": false,
     "fat_g": 58.8840822622377,
     "carbs_g": 238.2224537976636,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3378,7 +3378,7 @@
     "protein_capped": false,
     "fat_g": 53.53098387476153,
     "carbs_g": 210.1186872634138,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3413,7 +3413,7 @@
     "protein_capped": false,
     "fat_g": 59.989713333333334,
     "carbs_g": 219.22549580000003,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3446,7 +3446,7 @@
     "protein_capped": false,
     "fat_g": 65.98868466666667,
     "carbs_g": 250.72009530000005,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3479,7 +3479,7 @@
     "protein_capped": false,
     "fat_g": 59.989713333333334,
     "carbs_g": 219.22549580000003,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3512,7 +3512,7 @@
     "protein_capped": true,
     "fat_g": 53.35487093886488,
     "carbs_g": 160.06461281659466,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3545,7 +3545,7 @@
     "protein_capped": false,
     "fat_g": 73.36294754093922,
     "carbs_g": 263.6920940833795,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3578,7 +3578,7 @@
     "protein_capped": false,
     "fat_g": 66.6935886735811,
     "carbs_g": 228.67796002974936,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3611,7 +3611,7 @@
     "protein_capped": true,
     "fat_g": 57.00568635892964,
     "carbs_g": 171.01705907678897,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3646,7 +3646,7 @@
     "protein_capped": false,
     "fat_g": 73.67235302559631,
     "carbs_g": 248.0598533843806,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3679,7 +3679,7 @@
     "protein_capped": false,
     "fat_g": 73.67235302559631,
     "carbs_g": 248.0598533843806,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3714,7 +3714,7 @@
     "protein_capped": false,
     "fat_g": 60.384527778384445,
     "carbs_g": 246.34218416752205,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3747,7 +3747,7 @@
     "protein_capped": false,
     "fat_g": 66.4229805562229,
     "carbs_g": 278.04406125117396,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3780,7 +3780,7 @@
     "protein_capped": false,
     "fat_g": 60.384527778384445,
     "carbs_g": 246.34218416752205,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3815,7 +3815,7 @@
     "protein_capped": false,
     "fat_g": 61.20887919185126,
     "carbs_g": 247.50451966051025,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3848,7 +3848,7 @@
     "protein_capped": false,
     "fat_g": 67.32976711103639,
     "carbs_g": 279.6391812362322,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3881,7 +3881,7 @@
     "protein_capped": false,
     "fat_g": 61.20887919185126,
     "carbs_g": 247.50451966051025,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3916,7 +3916,7 @@
     "protein_capped": false,
     "fat_g": 67.06039291666667,
     "carbs_g": 255.75515401250004,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3949,7 +3949,7 @@
     "protein_capped": false,
     "fat_g": 73.76643220833334,
     "carbs_g": 290.9618602937501,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -3982,7 +3982,7 @@
     "protein_capped": false,
     "fat_g": 67.06039291666667,
     "carbs_g": 255.75515401250004,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4015,7 +4015,7 @@
     "protein_capped": true,
     "fat_g": 58.51770750302444,
     "carbs_g": 175.55312250907332,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4048,7 +4048,7 @@
     "protein_capped": false,
     "fat_g": 80.4618478166586,
     "carbs_g": 302.73970502294037,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4081,7 +4081,7 @@
     "protein_capped": false,
     "fat_g": 73.14713437878055,
     "carbs_g": 264.3374594740806,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4114,7 +4114,7 @@
     "protein_capped": true,
     "fat_g": 62.91624889033613,
     "carbs_g": 188.74874667100838,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4149,7 +4149,7 @@
     "protein_capped": false,
     "fat_g": 79.58291555700279,
     "carbs_g": 279.09030667426464,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4182,7 +4182,7 @@
     "protein_capped": false,
     "fat_g": 79.58291555700279,
     "carbs_g": 279.09030667426464,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4217,7 +4217,7 @@
     "protein_capped": false,
     "fat_g": 52.71114073918817,
     "carbs_g": 208.96270844225535,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4250,7 +4250,7 @@
     "protein_capped": false,
     "fat_g": 57.982254813107,
     "carbs_g": 236.63605733032915,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4283,7 +4283,7 @@
     "protein_capped": false,
     "fat_g": 52.71114073918817,
     "carbs_g": 208.96270844225535,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4318,7 +4318,7 @@
     "protein_capped": false,
     "fat_g": 53.63581864603866,
     "carbs_g": 210.2665042909145,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4351,7 +4351,7 @@
     "protein_capped": false,
     "fat_g": 58.99940051064253,
     "carbs_g": 238.42530908008482,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4384,7 +4384,7 @@
     "protein_capped": false,
     "fat_g": 53.63581864603866,
     "carbs_g": 210.2665042909145,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4419,7 +4419,7 @@
     "protein_capped": false,
     "fat_g": 60.213086249999996,
     "carbs_g": 219.5404516125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4452,7 +4452,7 @@
     "protein_capped": false,
     "fat_g": 66.234394875,
     "carbs_g": 251.15232189375,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4485,7 +4485,7 @@
     "protein_capped": false,
     "fat_g": 60.213086249999996,
     "carbs_g": 219.5404516125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4518,7 +4518,7 @@
     "protein_capped": true,
     "fat_g": 53.579789947500984,
     "carbs_g": 160.73936984250298,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4551,7 +4551,7 @@
     "protein_capped": false,
     "fat_g": 73.67221117781386,
     "carbs_g": 264.2361169355181,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4584,7 +4584,7 @@
     "protein_capped": false,
     "fat_g": 66.97473743437622,
     "carbs_g": 229.07437978247052,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4617,7 +4617,7 @@
     "protein_capped": true,
     "fat_g": 57.25779894190972,
     "carbs_g": 171.77339682572915,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4652,7 +4652,7 @@
     "protein_capped": false,
     "fat_g": 73.92446560857638,
     "carbs_g": 249.383444445026,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4685,7 +4685,7 @@
     "protein_capped": false,
     "fat_g": 73.92446560857638,
     "carbs_g": 249.383444445026,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4720,7 +4720,7 @@
     "protein_capped": false,
     "fat_g": 60.36456927022463,
     "carbs_g": 245.51404267101677,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4753,7 +4753,7 @@
     "protein_capped": false,
     "fat_g": 66.4010261972471,
     "carbs_g": 277.20544153788467,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4786,7 +4786,7 @@
     "protein_capped": false,
     "fat_g": 60.36456927022463,
     "carbs_g": 245.51404267101677,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4821,7 +4821,7 @@
     "protein_capped": false,
     "fat_g": 61.217221357751455,
     "carbs_g": 246.71628211442956,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4854,7 +4854,7 @@
     "protein_capped": false,
     "fat_g": 67.33894349352661,
     "carbs_g": 278.8553233272491,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4887,7 +4887,7 @@
     "protein_capped": false,
     "fat_g": 61.217221357751455,
     "carbs_g": 246.71628211442956,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4922,7 +4922,7 @@
     "protein_capped": false,
     "fat_g": 67.22968625,
     "carbs_g": 255.1938576125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4955,7 +4955,7 @@
     "protein_capped": false,
     "fat_g": 73.95265487500001,
     "carbs_g": 290.48944289375004,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -4988,7 +4988,7 @@
     "protein_capped": false,
     "fat_g": 67.22968625,
     "carbs_g": 255.1938576125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5021,7 +5021,7 @@
     "protein_capped": true,
     "fat_g": 58.70655371126267,
     "carbs_g": 176.11966113378801,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5054,7 +5054,7 @@
     "protein_capped": false,
     "fat_g": 80.72151135298617,
     "carbs_g": 302.3964767891166,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5087,7 +5087,7 @@
     "protein_capped": false,
     "fat_g": 73.38319213907835,
     "carbs_g": 263.87030091610046,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5120,7 +5120,7 @@
     "protein_capped": true,
     "fat_g": 63.08260790722131,
     "carbs_g": 189.24782372166393,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5155,7 +5155,7 @@
     "protein_capped": false,
     "fat_g": 79.74927457388797,
     "carbs_g": 279.96369151291185,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5188,7 +5188,7 @@
     "protein_capped": false,
     "fat_g": 79.74927457388797,
     "carbs_g": 279.96369151291185,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5223,7 +5223,7 @@
     "protein_capped": false,
     "fat_g": 52.55716222695503,
     "carbs_g": 207.9455987400066,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5256,7 +5256,7 @@
     "protein_capped": false,
     "fat_g": 57.81287844965053,
     "carbs_g": 235.538108909158,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5289,7 +5289,7 @@
     "protein_capped": false,
     "fat_g": 52.55716222695503,
     "carbs_g": 207.9455987400066,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5324,7 +5324,7 @@
     "protein_capped": false,
     "fat_g": 53.50083321619147,
     "carbs_g": 209.27617483482993,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5357,7 +5357,7 @@
     "protein_capped": false,
     "fat_g": 58.85091653781061,
     "carbs_g": 237.36411227333048,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5390,7 +5390,7 @@
     "protein_capped": false,
     "fat_g": 53.50083321619147,
     "carbs_g": 209.27617483482993,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5425,7 +5425,7 @@
     "protein_capped": false,
     "fat_g": 60.185859583333325,
     "carbs_g": 218.70206201250002,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5458,7 +5458,7 @@
     "protein_capped": false,
     "fat_g": 66.20444554166666,
     "carbs_g": 250.29963829375006,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5491,7 +5491,7 @@
     "protein_capped": false,
     "fat_g": 60.185859583333325,
     "carbs_g": 218.70206201250002,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5524,7 +5524,7 @@
     "protein_capped": true,
     "fat_g": 53.59159364388526,
     "carbs_g": 160.77478093165576,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5557,7 +5557,7 @@
     "protein_capped": false,
     "fat_g": 73.68844126034223,
     "carbs_g": 263.46466712614745,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5590,7 +5590,7 @@
     "protein_capped": false,
     "fat_g": 66.98949205485657,
     "carbs_g": 228.29518379734773,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5623,7 +5623,7 @@
     "protein_capped": true,
     "fat_g": 57.22547865953758,
     "carbs_g": 171.67643597861274,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5658,7 +5658,7 @@
     "protein_capped": false,
     "fat_g": 73.89214532620424,
     "carbs_g": 249.21376296257228,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5691,7 +5691,7 @@
     "protein_capped": false,
     "fat_g": 73.89214532620424,
     "carbs_g": 249.21376296257228,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5726,7 +5726,7 @@
     "protein_capped": false,
     "fat_g": 60.52826322895774,
     "carbs_g": 245.74485115283045,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5759,7 +5759,7 @@
     "protein_capped": false,
     "fat_g": 66.58108955185351,
     "carbs_g": 277.5221893480333,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5792,7 +5792,7 @@
     "protein_capped": false,
     "fat_g": 60.52826322895774,
     "carbs_g": 245.74485115283045,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5827,7 +5827,7 @@
     "protein_capped": false,
     "fat_g": 61.41000466744018,
     "carbs_g": 246.98810658109065,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5860,7 +5860,7 @@
     "protein_capped": false,
     "fat_g": 67.55100513418421,
     "carbs_g": 279.2283590314968,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5893,7 +5893,7 @@
     "protein_capped": false,
     "fat_g": 61.41000466744018,
     "carbs_g": 246.98810658109065,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5928,7 +5928,7 @@
     "protein_capped": false,
     "fat_g": 67.5826275,
     "carbs_g": 255.69150477500006,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5961,7 +5961,7 @@
     "protein_capped": false,
     "fat_g": 74.34089025000002,
     "carbs_g": 291.1723842125001,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -5994,7 +5994,7 @@
     "protein_capped": false,
     "fat_g": 67.5826275,
     "carbs_g": 255.69150477500006,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6027,7 +6027,7 @@
     "protein_capped": true,
     "fat_g": 59.03351330383118,
     "carbs_g": 177.10053991149354,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6060,7 +6060,7 @@
     "protein_capped": false,
     "fat_g": 81.17108079276788,
     "carbs_g": 303.1873103036417,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6093,7 +6093,7 @@
     "protein_capped": false,
     "fat_g": 73.79189162978896,
     "carbs_g": 264.4465671980025,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6126,7 +6126,7 @@
     "protein_capped": true,
     "fat_g": 63.40730475896529,
     "carbs_g": 190.22191427689586,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6161,7 +6161,7 @@
     "protein_capped": false,
     "fat_g": 80.07397142563195,
     "carbs_g": 281.6683499845677,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6194,7 +6194,7 @@
     "protein_capped": false,
     "fat_g": 80.07397142563195,
     "carbs_g": 281.6683499845677,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6229,7 +6229,7 @@
     "protein_capped": false,
     "fat_g": 52.58597520684353,
     "carbs_g": 207.98622504164936,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6262,7 +6262,7 @@
     "protein_capped": false,
     "fat_g": 57.84457272752789,
     "carbs_g": 235.59386202524226,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6295,7 +6295,7 @@
     "protein_capped": false,
     "fat_g": 52.58597520684353,
     "carbs_g": 207.98622504164936,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6330,7 +6330,7 @@
     "protein_capped": false,
     "fat_g": 53.54785611975078,
     "carbs_g": 209.3424771288486,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6363,7 +6363,7 @@
     "protein_capped": false,
     "fat_g": 58.90264173172587,
     "carbs_g": 237.4551015917178,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6396,7 +6396,7 @@
     "protein_capped": false,
     "fat_g": 53.54785611975078,
     "carbs_g": 209.3424771288486,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6431,7 +6431,7 @@
     "protein_capped": false,
     "fat_g": 60.33264749999999,
     "carbs_g": 218.909032975,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6464,7 +6464,7 @@
     "protein_capped": false,
     "fat_g": 66.36591225000001,
     "carbs_g": 250.5836729125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6497,7 +6497,7 @@
     "protein_capped": false,
     "fat_g": 60.33264749999999,
     "carbs_g": 218.909032975,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6530,7 +6530,7 @@
     "protein_capped": true,
     "fat_g": 53.73326169366179,
     "carbs_g": 161.1997850809854,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6563,7 +6563,7 @@
     "protein_capped": false,
     "fat_g": 73.88323482878496,
     "carbs_g": 263.8073267215445,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6596,7 +6596,7 @@
     "protein_capped": false,
     "fat_g": 67.16657711707724,
     "carbs_g": 228.5448737350789,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6629,7 +6629,7 @@
     "protein_capped": true,
     "fat_g": 57.343416597001834,
     "carbs_g": 172.03024979100553,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6664,7 +6664,7 @@
     "protein_capped": false,
     "fat_g": 74.01008326366849,
     "carbs_g": 249.83293713425962,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6697,7 +6697,7 @@
     "protein_capped": false,
     "fat_g": 74.01008326366849,
     "carbs_g": 249.83293713425962,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6732,7 +6732,7 @@
     "protein_capped": false,
     "fat_g": 60.64538846845456,
     "carbs_g": 245.9099977405209,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6765,7 +6765,7 @@
     "protein_capped": false,
     "fat_g": 66.70992731530002,
     "carbs_g": 277.7488266864596,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6798,7 +6798,7 @@
     "protein_capped": false,
     "fat_g": 60.64538846845456,
     "carbs_g": 245.9099977405209,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6833,7 +6833,7 @@
     "protein_capped": false,
     "fat_g": 61.552084434843096,
     "carbs_g": 247.18843905312875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6866,7 +6866,7 @@
     "protein_capped": false,
     "fat_g": 67.70729287832741,
     "carbs_g": 279.5032833814214,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6899,7 +6899,7 @@
     "protein_capped": false,
     "fat_g": 61.552084434843096,
     "carbs_g": 247.18843905312875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6934,7 +6934,7 @@
     "protein_capped": false,
     "fat_g": 67.85765916666666,
     "carbs_g": 256.07929942499993,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -6967,7 +6967,7 @@
     "protein_capped": false,
     "fat_g": 74.64342508333333,
     "carbs_g": 291.70457048749995,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7000,7 +7000,7 @@
     "protein_capped": false,
     "fat_g": 67.85765916666666,
     "carbs_g": 256.07929942499993,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7033,7 +7033,7 @@
     "protein_capped": true,
     "fat_g": 59.28367315404598,
     "carbs_g": 177.8510194621379,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7066,7 +7066,7 @@
     "protein_capped": false,
     "fat_g": 81.51505058681322,
     "carbs_g": 303.79238444134876,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7099,7 +7099,7 @@
     "protein_capped": false,
     "fat_g": 74.10459144255746,
     "carbs_g": 264.88747393400604,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7132,7 +7132,7 @@
     "protein_capped": true,
     "fat_g": 63.63919989860463,
     "carbs_g": 190.91759969581392,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7167,7 +7167,7 @@
     "protein_capped": false,
     "fat_g": 80.30586656527129,
     "carbs_g": 282.8857994676743,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7200,7 +7200,7 @@
     "protein_capped": false,
     "fat_g": 80.30586656527129,
     "carbs_g": 282.8857994676743,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7235,7 +7235,7 @@
     "protein_capped": false,
     "fat_g": 52.596144782793736,
     "carbs_g": 208.00056414373918,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7268,7 +7268,7 @@
     "protein_capped": false,
     "fat_g": 57.8557592610731,
     "carbs_g": 235.61354015470593,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7301,7 +7301,7 @@
     "protein_capped": false,
     "fat_g": 52.596144782793736,
     "carbs_g": 208.00056414373918,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7336,7 +7336,7 @@
     "protein_capped": false,
     "fat_g": 53.57281469263231,
     "carbs_g": 209.37766871661154,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7369,7 +7369,7 @@
     "protein_capped": false,
     "fat_g": 58.93009616189555,
     "carbs_g": 237.5033964302436,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7402,7 +7402,7 @@
     "protein_capped": false,
     "fat_g": 53.57281469263231,
     "carbs_g": 209.37766871661154,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7437,7 +7437,7 @@
     "protein_capped": false,
     "fat_g": 60.43596499999998,
     "carbs_g": 219.05471064999992,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7470,7 +7470,7 @@
     "protein_capped": false,
     "fat_g": 66.47956149999999,
     "carbs_g": 250.783592275,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7503,7 +7503,7 @@
     "protein_capped": false,
     "fat_g": 60.43596499999998,
     "carbs_g": 219.05471064999992,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7536,7 +7536,7 @@
     "protein_capped": true,
     "fat_g": 53.8300021283521,
     "carbs_g": 161.49000638505626,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7569,7 +7569,7 @@
     "protein_capped": false,
     "fat_g": 74.01625292648413,
     "carbs_g": 264.0413176479517,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7602,7 +7602,7 @@
     "protein_capped": false,
     "fat_g": 67.28750266044011,
     "carbs_g": 228.7153787512206,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7635,7 +7635,7 @@
     "protein_capped": true,
     "fat_g": 57.407307679015226,
     "carbs_g": 172.2219230370457,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7670,7 +7670,7 @@
     "protein_capped": false,
     "fat_g": 74.07397434568189,
     "carbs_g": 250.16836531482994,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7703,7 +7703,7 @@
     "protein_capped": false,
     "fat_g": 74.07397434568189,
     "carbs_g": 250.16836531482994,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7738,7 +7738,7 @@
     "protein_capped": false,
     "fat_g": 60.17171523727911,
     "carbs_g": 246.04211848456356,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7773,7 +7773,7 @@
     "protein_capped": false,
     "fat_g": 60.174745445557,
     "carbs_g": 246.04639107823542,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7808,7 +7808,7 @@
     "protein_capped": false,
     "fat_g": 61.8519709410505,
     "carbs_g": 248.4112790268812,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7843,7 +7843,7 @@
     "protein_capped": false,
     "fat_g": 61.855701326711745,
     "carbs_g": 248.41653887066354,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7878,7 +7878,7 @@
     "protein_capped": false,
     "fat_g": 70.30316790550138,
     "carbs_g": 260.32746674675695,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7911,7 +7911,7 @@
     "protein_capped": true,
     "fat_g": 56.24940506138229,
     "carbs_g": 168.74821518414691,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7944,7 +7944,7 @@
     "protein_capped": true,
     "fat_g": 60.43089520475095,
     "carbs_g": 181.29268561425283,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -7977,7 +7977,7 @@
     "protein_capped": true,
     "fat_g": 58.884754065194734,
     "carbs_g": 176.65426219558424,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8012,7 +8012,7 @@
     "protein_capped": false,
     "fat_g": 52.62468897069261,
     "carbs_g": 208.84081144867662,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8047,7 +8047,7 @@
     "protein_capped": false,
     "fat_g": 52.628126901466175,
     "carbs_g": 208.8456589310673,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8082,7 +8082,7 @@
     "protein_capped": false,
     "fat_g": 54.53368209631383,
     "carbs_g": 211.5324917558025,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8117,7 +8117,7 @@
     "protein_capped": false,
     "fat_g": 54.53792422063657,
     "carbs_g": 211.53847315109755,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8152,7 +8152,7 @@
     "protein_capped": false,
     "fat_g": 64.079435775981,
     "carbs_g": 224.9920044441332,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8185,7 +8185,7 @@
     "protein_capped": true,
     "fat_g": 51.27119784068048,
     "carbs_g": 153.81359352204143,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8218,7 +8218,7 @@
     "protein_capped": true,
     "fat_g": 55.858443385401024,
     "carbs_g": 167.57533015620314,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8251,7 +8251,7 @@
     "protein_capped": true,
     "fat_g": 53.170201387643885,
     "carbs_g": 159.5106041629317,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8286,7 +8286,7 @@
     "protein_capped": false,
     "fat_g": 60.362945990464596,
     "carbs_g": 245.51175384655505,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8321,7 +8321,7 @@
     "protein_capped": false,
     "fat_g": 60.3661928612819,
     "carbs_g": 245.51633193440748,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8356,7 +8356,7 @@
     "protein_capped": false,
     "fat_g": 62.15874522112665,
     "carbs_g": 248.04383076178854,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8391,7 +8391,7 @@
     "protein_capped": false,
     "fat_g": 62.16272097386656,
     "carbs_g": 248.04943657315184,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8426,7 +8426,7 @@
     "protein_capped": false,
     "fat_g": 70.99047257813037,
     "carbs_g": 260.49656633516383,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8459,7 +8459,7 @@
     "protein_capped": true,
     "fat_g": 56.79938987138652,
     "carbs_g": 170.39816961415957,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8492,7 +8492,7 @@
     "protein_capped": true,
     "fat_g": 60.99233988156579,
     "carbs_g": 182.9770196446974,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8525,7 +8525,7 @@
     "protein_capped": true,
     "fat_g": 59.58635827063342,
     "carbs_g": 178.75907481190026,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8560,7 +8560,7 @@
     "protein_capped": false,
     "fat_g": 52.55536791218955,
     "carbs_g": 207.94306875618722,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8595,7 +8595,7 @@
     "protein_capped": false,
     "fat_g": 52.55895689502755,
     "carbs_g": 207.94812922198884,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8630,7 +8630,7 @@
     "protein_capped": false,
     "fat_g": 54.545166779702164,
     "carbs_g": 210.7486851593801,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8665,7 +8665,7 @@
     "protein_capped": false,
     "fat_g": 54.549580867722,
     "carbs_g": 210.75490902348804,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8700,7 +8700,7 @@
     "protein_capped": false,
     "fat_g": 64.35526993139425,
     "carbs_g": 224.5809306032659,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8733,7 +8733,7 @@
     "protein_capped": true,
     "fat_g": 51.491960302108964,
     "carbs_g": 154.4758809063269,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8766,7 +8766,7 @@
     "protein_capped": true,
     "fat_g": 56.08707219586602,
     "carbs_g": 168.2612165875981,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8799,7 +8799,7 @@
     "protein_capped": true,
     "fat_g": 53.45585757050387,
     "carbs_g": 160.36757271151168,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8834,7 +8834,7 @@
     "protein_capped": false,
     "fat_g": 60.643659995051536,
     "carbs_g": 245.90756059302262,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8869,7 +8869,7 @@
     "protein_capped": false,
     "fat_g": 60.64711726493681,
     "carbs_g": 245.91243534356093,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8904,7 +8904,7 @@
     "protein_capped": false,
     "fat_g": 62.55023956595566,
     "carbs_g": 248.59583778799748,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8939,7 +8939,7 @@
     "protein_capped": false,
     "fat_g": 62.55444717426576,
     "carbs_g": 248.6017705157147,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -8974,7 +8974,7 @@
     "protein_capped": false,
     "fat_g": 71.70347757753888,
     "carbs_g": 261.5019033843298,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9007,7 +9007,7 @@
     "protein_capped": true,
     "fat_g": 57.369871994369696,
     "carbs_g": 172.10961598310914,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9040,7 +9040,7 @@
     "protein_capped": true,
     "fat_g": 61.537821480790576,
     "carbs_g": 184.61346444237176,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9073,7 +9073,7 @@
     "protein_capped": true,
     "fat_g": 60.26791323840703,
     "carbs_g": 180.80373971522104,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9108,7 +9108,7 @@
     "protein_capped": false,
     "fat_g": 52.59428635496045,
     "carbs_g": 207.9979437604942,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9143,7 +9143,7 @@
     "protein_capped": false,
     "fat_g": 52.59800357164621,
     "carbs_g": 208.00318503602114,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9178,7 +9178,7 @@
     "protein_capped": false,
     "fat_g": 54.65181180993725,
     "carbs_g": 210.89905465201156,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9213,7 +9213,7 @@
     "protein_capped": false,
     "fat_g": 54.656367894324724,
     "carbs_g": 210.90547873099786,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9248,7 +9248,7 @@
     "protein_capped": false,
     "fat_g": 64.65281519812716,
     "carbs_g": 225.0004694293593,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9281,7 +9281,7 @@
     "protein_capped": true,
     "fat_g": 51.73003243340158,
     "carbs_g": 155.1900973002048,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9314,7 +9314,7 @@
     "protein_capped": true,
     "fat_g": 56.30071752232274,
     "carbs_g": 168.90215256696828,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9347,7 +9347,7 @@
     "protein_capped": true,
     "fat_g": 53.72270115253914,
     "carbs_g": 161.16810345761746,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9379,7 +9379,7 @@
     "protein_capped": true,
     "fat_g": 49.375,
     "carbs_g": 177.75,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9411,7 +9411,7 @@
     "protein_capped": true,
     "fat_g": 44.763888888888886,
     "carbs_g": 161.14999999999998,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9443,7 +9443,7 @@
     "protein_capped": true,
     "fat_g": 49.236111111111114,
     "carbs_g": 177.25,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9475,7 +9475,7 @@
     "protein_capped": true,
     "fat_g": 44.625,
     "carbs_g": 160.64999999999998,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9507,7 +9507,7 @@
     "protein_capped": true,
     "fat_g": 47.708333333333336,
     "carbs_g": 171.75,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9539,7 +9539,7 @@
     "protein_capped": true,
     "fat_g": 43.09722222222222,
     "carbs_g": 155.15,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9571,7 +9571,7 @@
     "protein_capped": true,
     "fat_g": 43.68055555555556,
     "carbs_g": 157.25,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9603,7 +9603,7 @@
     "protein_capped": true,
     "fat_g": 39.06944444444444,
     "carbs_g": 140.65,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9635,7 +9635,7 @@
     "protein_capped": true,
     "fat_g": 43.541666666666664,
     "carbs_g": 156.75,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9667,7 +9667,7 @@
     "protein_capped": true,
     "fat_g": 38.93055555555556,
     "carbs_g": 140.15,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9701,7 +9701,7 @@
     "protein_capped": true,
     "fat_g": 41.666666666666664,
     "carbs_g": 150.0,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9733,7 +9733,7 @@
     "protein_capped": true,
     "fat_g": 36.43055555555556,
     "carbs_g": 131.15,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9767,7 +9767,7 @@
     "protein_capped": true,
     "fat_g": 41.666666666666664,
     "carbs_g": 150.0,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9799,7 +9799,7 @@
     "protein_capped": true,
     "fat_g": 35.458333333333336,
     "carbs_g": 127.65,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9833,7 +9833,7 @@
     "protein_capped": false,
     "fat_g": 58.984375,
     "carbs_g": 278.14453125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9873,7 +9873,7 @@
     "protein_capped": false,
     "fat_g": 59.9253162202381,
     "carbs_g": 284.49588448660717,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9913,7 +9913,7 @@
     "protein_capped": false,
     "fat_g": 60.8662574404762,
     "carbs_g": 290.84723772321433,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9953,7 +9953,7 @@
     "protein_capped": false,
     "fat_g": 61.807198660714285,
     "carbs_g": 297.19859095982144,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -9993,7 +9993,7 @@
     "protein_capped": false,
     "fat_g": 62.74813988095238,
     "carbs_g": 303.54994419642856,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10033,7 +10033,7 @@
     "protein_capped": false,
     "fat_g": 63.68908110119047,
     "carbs_g": 309.90129743303567,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10073,7 +10073,7 @@
     "protein_capped": false,
     "fat_g": 64.63002232142857,
     "carbs_g": 316.25265066964283,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10113,7 +10113,7 @@
     "protein_capped": false,
     "fat_g": 65.57096354166667,
     "carbs_g": 322.60400390625,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10147,7 +10147,7 @@
     "protein_capped": false,
     "fat_g": 53.220486111111114,
     "carbs_g": 239.23828125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10187,7 +10187,7 @@
     "protein_capped": false,
     "fat_g": 54.12016575727514,
     "carbs_g": 245.31111886160716,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10227,7 +10227,7 @@
     "protein_capped": false,
     "fat_g": 55.019845403439156,
     "carbs_g": 251.3839564732143,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10267,7 +10267,7 @@
     "protein_capped": false,
     "fat_g": 55.91952504960318,
     "carbs_g": 257.45679408482147,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10307,7 +10307,7 @@
     "protein_capped": false,
     "fat_g": 56.81920469576719,
     "carbs_g": 263.52963169642857,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10347,7 +10347,7 @@
     "protein_capped": false,
     "fat_g": 57.718884341931215,
     "carbs_g": 269.6024693080357,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10387,7 +10387,7 @@
     "protein_capped": false,
     "fat_g": 58.61856398809524,
     "carbs_g": 275.6753069196428,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10427,7 +10427,7 @@
     "protein_capped": false,
     "fat_g": 59.51824363425926,
     "carbs_g": 281.74814453125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10461,7 +10461,7 @@
     "protein_capped": false,
     "fat_g": 65.59062499999999,
     "carbs_g": 322.73671874999997,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10501,7 +10501,7 @@
     "protein_capped": false,
     "fat_g": 66.53156622023809,
     "carbs_g": 329.08807198660713,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10541,7 +10541,7 @@
     "protein_capped": false,
     "fat_g": 67.47250744047619,
     "carbs_g": 335.4394252232143,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10581,7 +10581,7 @@
     "protein_capped": false,
     "fat_g": 68.4134486607143,
     "carbs_g": 341.79077845982147,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10621,7 +10621,7 @@
     "protein_capped": false,
     "fat_g": 69.35438988095238,
     "carbs_g": 348.1421316964286,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10661,7 +10661,7 @@
     "protein_capped": false,
     "fat_g": 70.29533110119047,
     "carbs_g": 354.49348493303575,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10701,7 +10701,7 @@
     "protein_capped": false,
     "fat_g": 71.23627232142856,
     "carbs_g": 360.8448381696428,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10741,7 +10741,7 @@
     "protein_capped": false,
     "fat_g": 72.17721354166666,
     "carbs_g": 367.19619140624997,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10775,7 +10775,7 @@
     "protein_capped": false,
     "fat_g": 59.18118055555556,
     "carbs_g": 279.47296875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10815,7 +10815,7 @@
     "protein_capped": false,
     "fat_g": 60.080860201719574,
     "carbs_g": 285.5458063616071,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10855,7 +10855,7 @@
     "protein_capped": false,
     "fat_g": 60.98053984788359,
     "carbs_g": 291.61864397321426,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10895,7 +10895,7 @@
     "protein_capped": false,
     "fat_g": 61.880219494047616,
     "carbs_g": 297.6914815848214,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10935,7 +10935,7 @@
     "protein_capped": false,
     "fat_g": 62.77989914021163,
     "carbs_g": 303.7643191964285,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -10975,7 +10975,7 @@
     "protein_capped": false,
     "fat_g": 63.67957878637565,
     "carbs_g": 309.8371568080356,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11015,7 +11015,7 @@
     "protein_capped": false,
     "fat_g": 64.57925843253969,
     "carbs_g": 315.9099944196428,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11055,7 +11055,7 @@
     "protein_capped": false,
     "fat_g": 65.4789380787037,
     "carbs_g": 321.98283203125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11089,7 +11089,7 @@
     "protein_capped": false,
     "fat_g": 84.03307291666665,
     "carbs_g": 447.2232421875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11129,7 +11129,7 @@
     "protein_capped": false,
     "fat_g": 84.97401413690476,
     "carbs_g": 453.5745954241071,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11169,7 +11169,7 @@
     "protein_capped": false,
     "fat_g": 85.91495535714286,
     "carbs_g": 459.9259486607143,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11209,7 +11209,7 @@
     "protein_capped": false,
     "fat_g": 86.85589657738095,
     "carbs_g": 466.27730189732137,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11249,7 +11249,7 @@
     "protein_capped": false,
     "fat_g": 87.79683779761905,
     "carbs_g": 472.62865513392853,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11289,7 +11289,7 @@
     "protein_capped": false,
     "fat_g": 88.73777901785714,
     "carbs_g": 478.9800083705357,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11329,7 +11329,7 @@
     "protein_capped": false,
     "fat_g": 89.67872023809524,
     "carbs_g": 485.33136160714287,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11369,7 +11369,7 @@
     "protein_capped": false,
     "fat_g": 90.61966145833334,
     "carbs_g": 491.68271484375003,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11403,7 +11403,7 @@
     "protein_capped": false,
     "fat_g": 76.81490162037036,
     "carbs_g": 398.5005859375,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11443,7 +11443,7 @@
     "protein_capped": false,
     "fat_g": 77.71458126653438,
     "carbs_g": 404.57342354910713,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11483,7 +11483,7 @@
     "protein_capped": false,
     "fat_g": 78.6142609126984,
     "carbs_g": 410.64626116071423,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11523,7 +11523,7 @@
     "protein_capped": false,
     "fat_g": 79.51394055886243,
     "carbs_g": 416.71909877232144,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11563,7 +11563,7 @@
     "protein_capped": false,
     "fat_g": 80.41362020502645,
     "carbs_g": 422.7919363839285,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11603,7 +11603,7 @@
     "protein_capped": false,
     "fat_g": 81.31329985119046,
     "carbs_g": 428.86477399553564,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11643,7 +11643,7 @@
     "protein_capped": false,
     "fat_g": 82.2129794973545,
     "carbs_g": 434.9376116071428,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11683,7 +11683,7 @@
     "protein_capped": false,
     "fat_g": 83.11265914351851,
     "carbs_g": 441.01044921874995,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11722,7 +11722,7 @@
     "protein_capped": false,
     "fat_g": 60.8662574404762,
     "carbs_g": 290.84723772321433,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11761,7 +11761,7 @@
     "protein_capped": false,
     "fat_g": 55.019845403439156,
     "carbs_g": 251.3839564732143,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11800,7 +11800,7 @@
     "protein_capped": false,
     "fat_g": 61.807198660714285,
     "carbs_g": 297.19859095982144,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11839,7 +11839,7 @@
     "protein_capped": false,
     "fat_g": 55.91952504960318,
     "carbs_g": 257.45679408482147,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11878,7 +11878,7 @@
     "protein_capped": false,
     "fat_g": 62.74813988095238,
     "carbs_g": 303.54994419642856,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11917,7 +11917,7 @@
     "protein_capped": false,
     "fat_g": 56.81920469576719,
     "carbs_g": 263.52963169642857,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11956,7 +11956,7 @@
     "protein_capped": false,
     "fat_g": 64.63002232142857,
     "carbs_g": 316.25265066964283,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -11995,7 +11995,7 @@
     "protein_capped": false,
     "fat_g": 58.61856398809524,
     "carbs_g": 275.6753069196428,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12034,7 +12034,7 @@
     "protein_capped": false,
     "fat_g": 60.05704799107142,
     "carbs_g": 285.38507393973214,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12073,7 +12073,7 @@
     "protein_capped": false,
     "fat_g": 54.2461209077381,
     "carbs_g": 246.16131612723217,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12112,7 +12112,7 @@
     "protein_capped": false,
     "fat_g": 61.12972098214286,
     "carbs_g": 292.6256166294643,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12151,7 +12151,7 @@
     "protein_capped": false,
     "fat_g": 55.27175570436508,
     "carbs_g": 253.08435100446428,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12190,7 +12190,7 @@
     "protein_capped": false,
     "fat_g": 62.202393973214285,
     "carbs_g": 299.8661593191964,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12229,7 +12229,7 @@
     "protein_capped": false,
     "fat_g": 56.297390500992066,
     "carbs_g": 260.00738588169645,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12268,7 +12268,7 @@
     "protein_capped": false,
     "fat_g": 63.27506696428572,
     "carbs_g": 307.1067020089286,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12307,7 +12307,7 @@
     "protein_capped": false,
     "fat_g": 57.32302529761905,
     "carbs_g": 266.93042075892856,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12346,7 +12346,7 @@
     "protein_capped": false,
     "fat_g": 61.101492745535715,
     "carbs_g": 292.43507603236606,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12385,7 +12385,7 @@
     "protein_capped": false,
     "fat_g": 55.24476531498016,
     "carbs_g": 252.90216587611604,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12424,7 +12424,7 @@
     "protein_capped": false,
     "fat_g": 63.21861049107143,
     "carbs_g": 306.72562081473217,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12463,7 +12463,7 @@
     "protein_capped": false,
     "fat_g": 57.2690445188492,
     "carbs_g": 266.5660505022321,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12502,7 +12502,7 @@
     "protein_capped": false,
     "fat_g": 65.33572823660715,
     "carbs_g": 321.0161655970983,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12541,7 +12541,7 @@
     "protein_capped": false,
     "fat_g": 59.293323722718256,
     "carbs_g": 280.2299351283482,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12580,7 +12580,7 @@
     "protein_capped": false,
     "fat_g": 67.45284598214285,
     "carbs_g": 335.3067103794642,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12619,7 +12619,7 @@
     "protein_capped": false,
     "fat_g": 61.317602926587305,
     "carbs_g": 293.8938197544643,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12658,7 +12658,7 @@
     "protein_capped": false,
     "fat_g": 61.32731863839285,
     "carbs_g": 293.95940080915176,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12697,7 +12697,7 @@
     "protein_capped": false,
     "fat_g": 55.46068843005953,
     "carbs_g": 254.3596469029018,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12736,7 +12736,7 @@
     "protein_capped": false,
     "fat_g": 63.67026227678572,
     "carbs_g": 309.77427036830363,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12775,7 +12775,7 @@
     "protein_capped": false,
     "fat_g": 57.700890749007925,
     "carbs_g": 269.48101255580355,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12814,7 +12814,7 @@
     "protein_capped": false,
     "fat_g": 66.01320591517857,
     "carbs_g": 325.58913992745534,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12853,7 +12853,7 @@
     "protein_capped": false,
     "fat_g": 59.941093067956345,
     "carbs_g": 284.6023782087053,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12892,7 +12892,7 @@
     "protein_capped": false,
     "fat_g": 68.35614955357144,
     "carbs_g": 341.4040094866072,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12931,7 +12931,7 @@
     "protein_capped": false,
     "fat_g": 62.18129538690476,
     "carbs_g": 299.7237438616071,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -12970,7 +12970,7 @@
     "protein_capped": false,
     "fat_g": 60.621612723214284,
     "carbs_g": 289.1958858816964,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13009,7 +13009,7 @@
     "protein_capped": false,
     "fat_g": 54.78592869543651,
     "carbs_g": 249.80501869419643,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13048,7 +13048,7 @@
     "protein_capped": false,
     "fat_g": 62.25885044642857,
     "carbs_g": 300.24724051339285,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13087,7 +13087,7 @@
     "protein_capped": false,
     "fat_g": 56.351371279761906,
     "carbs_g": 260.37175613839287,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13126,7 +13126,7 @@
     "protein_capped": false,
     "fat_g": 63.89608816964286,
     "carbs_g": 311.2985951450893,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13165,7 +13165,7 @@
     "protein_capped": false,
     "fat_g": 57.9168138640873,
     "carbs_g": 270.93849358258933,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13204,7 +13204,7 @@
     "protein_capped": false,
     "fat_g": 65.53332589285714,
     "carbs_g": 322.3499497767857,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13243,7 +13243,7 @@
     "protein_capped": false,
     "fat_g": 59.4822564484127,
     "carbs_g": 281.50523102678574,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13288,7 +13288,7 @@
     "protein_capped": false,
     "fat_g": 93.42013888888889,
     "carbs_g": 534.5859375,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13333,7 +13333,7 @@
     "protein_capped": false,
     "fat_g": 123.02203125,
     "carbs_g": 702.3987109375,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13365,7 +13365,7 @@
     "protein_capped": true,
     "fat_g": 55.55555555555556,
     "carbs_g": 200.0,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13398,7 +13398,7 @@
     "protein_capped": false,
     "fat_g": 85.04629629629629,
     "carbs_g": 387.5625,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13430,7 +13430,7 @@
     "protein_capped": true,
     "fat_g": 38.125,
     "carbs_g": 137.25,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13463,7 +13463,7 @@
     "protein_capped": false,
     "fat_g": 70.28333333333333,
     "carbs_g": 280.0125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13497,7 +13497,7 @@
     "protein_capped": false,
     "fat_g": 30.43402777777778,
     "carbs_g": 133.4296875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13531,7 +13531,7 @@
     "protein_capped": false,
     "fat_g": 33.333333333333336,
     "carbs_g": 125.0,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13565,7 +13565,7 @@
     "protein_capped": false,
     "fat_g": 40.104166666666664,
     "carbs_g": 182.703125,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13599,7 +13599,7 @@
     "protein_capped": false,
     "fat_g": 41.666666666666664,
     "carbs_g": 157.25,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13632,7 +13632,7 @@
     "protein_capped": false,
     "fat_g": 59.520833333333336,
     "carbs_g": 231.765625,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13665,7 +13665,7 @@
     "protein_capped": false,
     "fat_g": 59.520833333333336,
     "carbs_g": 231.765625,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13698,7 +13698,7 @@
     "protein_capped": true,
     "fat_g": 53.62777777777777,
     "carbs_g": 193.05999999999997,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13731,7 +13731,7 @@
     "protein_capped": true,
     "fat_g": 53.62777777777777,
     "carbs_g": 193.05999999999997,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13764,7 +13764,7 @@
     "protein_capped": true,
     "fat_g": 45.97777777777778,
     "carbs_g": 165.52000000000004,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13797,7 +13797,7 @@
     "protein_capped": true,
     "fat_g": 45.97777777777778,
     "carbs_g": 165.52000000000004,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13832,7 +13832,7 @@
     "protein_capped": true,
     "fat_g": 41.666666666666664,
     "carbs_g": 150.0,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13865,7 +13865,7 @@
     "protein_capped": true,
     "fat_g": 38.32777777777778,
     "carbs_g": 137.98000000000002,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13898,7 +13898,7 @@
     "protein_capped": false,
     "fat_g": 62.78211805555556,
     "carbs_g": 314.979296875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13931,7 +13931,7 @@
     "protein_capped": false,
     "fat_g": 56.441840277777786,
     "carbs_g": 272.18242187500005,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13964,7 +13964,7 @@
     "protein_capped": false,
     "fat_g": 62.78211805555556,
     "carbs_g": 314.979296875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -13997,7 +13997,7 @@
     "protein_capped": false,
     "fat_g": 56.441840277777786,
     "carbs_g": 272.18242187500005,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -14030,7 +14030,7 @@
     "protein_capped": false,
     "fat_g": 59.928385416666664,
     "carbs_g": 295.7166015625,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -14063,7 +14063,7 @@
     "protein_capped": false,
     "fat_g": 53.876302083333336,
     "carbs_g": 254.8650390625,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -14098,7 +14098,7 @@
     "protein_capped": false,
     "fat_g": 51.05034722222222,
     "carbs_g": 224.58984375,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -14133,7 +14133,7 @@
     "protein_capped": false,
     "fat_g": 51.05034722222222,
     "carbs_g": 224.58984375,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -14166,7 +14166,7 @@
     "protein_capped": false,
     "fat_g": 51.05034722222222,
     "carbs_g": 224.58984375,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -14198,7 +14198,7 @@
     "protein_capped": true,
     "fat_g": 53.611111111111114,
     "carbs_g": 193.0,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -14230,7 +14230,7 @@
     "protein_capped": true,
     "fat_g": 37.50694444444444,
     "carbs_g": 135.025,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -14263,7 +14263,7 @@
     "protein_capped": true,
     "fat_g": 72.23958333333333,
     "carbs_g": 216.71875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   },
   {
@@ -14295,7 +14295,7 @@
     "protein_capped": false,
     "fat_g": 76.5625,
     "carbs_g": 276.796875,
-    "spec_version": "1.1"
+    "spec_version": "1.2"
    }
   }
  ]

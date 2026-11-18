@@ -1,5 +1,5 @@
 {
- "spec_version": "1.1",
+ "spec_version": "1.2",
  "tolerance_abs": 1e-06,
  "count": 20,
  "rule": "exact BMI, no rounding; float tolerance 1e-9 at cut-offs; cut-off values go to the higher class",

@@ -1,0 +1,1917 @@
+{
+ "spec_version": "1.2",
+ "tolerance_abs": 1e-06,
+ "count": 99,
+ "note": "MET kcal (Compendium 2024), e1RM (Brzycki), fractional volume, PR rules.",
+ "vectors": [
+  {
+   "id": "MET-001",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "01030 60 kg 30 min",
+   "inputs": {
+    "code": "01030",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 8.0,
+    "kcal_gross": 240.0,
+    "kcal_net": 210.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-002",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "01030 85 kg 60 min",
+   "inputs": {
+    "code": "01030",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 8.0,
+    "kcal_gross": 680.0,
+    "kcal_net": 595.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-003",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "01040 60 kg 30 min",
+   "inputs": {
+    "code": "01040",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 10.0,
+    "kcal_gross": 300.0,
+    "kcal_net": 270.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-004",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "01040 85 kg 60 min",
+   "inputs": {
+    "code": "01040",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 10.0,
+    "kcal_gross": 850.0,
+    "kcal_net": 765.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-005",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "01200 60 kg 30 min",
+   "inputs": {
+    "code": "01200",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 6.8,
+    "kcal_gross": 204.0,
+    "kcal_net": 174.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-006",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "01200 85 kg 60 min",
+   "inputs": {
+    "code": "01200",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 6.8,
+    "kcal_gross": 578.0,
+    "kcal_net": 493.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-007",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "01220 60 kg 30 min",
+   "inputs": {
+    "code": "01220",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 6.0,
+    "kcal_gross": 180.0,
+    "kcal_net": 150.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-008",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "01220 85 kg 60 min",
+   "inputs": {
+    "code": "01220",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 6.0,
+    "kcal_gross": 510.0,
+    "kcal_net": 425.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-009",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "01228 60 kg 30 min",
+   "inputs": {
+    "code": "01228",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 8.0,
+    "kcal_gross": 240.0,
+    "kcal_net": 210.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-010",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "01228 85 kg 60 min",
+   "inputs": {
+    "code": "01228",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 8.0,
+    "kcal_gross": 680.0,
+    "kcal_net": 595.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-011",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "02050 60 kg 30 min",
+   "inputs": {
+    "code": "02050",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 6.0,
+    "kcal_gross": 180.0,
+    "kcal_net": 150.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-012",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "02050 85 kg 60 min",
+   "inputs": {
+    "code": "02050",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 6.0,
+    "kcal_gross": 510.0,
+    "kcal_net": 425.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-013",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "02052 60 kg 30 min",
+   "inputs": {
+    "code": "02052",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 5.0,
+    "kcal_gross": 150.0,
+    "kcal_net": 120.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-014",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "02052 85 kg 60 min",
+   "inputs": {
+    "code": "02052",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 5.0,
+    "kcal_gross": 425.0,
+    "kcal_net": 340.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-015",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "02054 60 kg 30 min",
+   "inputs": {
+    "code": "02054",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 3.5,
+    "kcal_gross": 105.0,
+    "kcal_net": 75.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-016",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "02054 85 kg 60 min",
+   "inputs": {
+    "code": "02054",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 3.5,
+    "kcal_gross": 297.5,
+    "kcal_net": 212.5,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-017",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "02055 60 kg 30 min",
+   "inputs": {
+    "code": "02055",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 5.8,
+    "kcal_gross": 174.0,
+    "kcal_net": 144.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-018",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "02055 85 kg 60 min",
+   "inputs": {
+    "code": "02055",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 5.8,
+    "kcal_gross": 493.0,
+    "kcal_net": 408.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-019",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "02056 60 kg 30 min",
+   "inputs": {
+    "code": "02056",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 3.0,
+    "kcal_gross": 90.0,
+    "kcal_net": 60.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-020",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "02056 85 kg 60 min",
+   "inputs": {
+    "code": "02056",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 3.0,
+    "kcal_gross": 255.0,
+    "kcal_net": 170.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-021",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "02057 60 kg 30 min",
+   "inputs": {
+    "code": "02057",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 6.5,
+    "kcal_gross": 195.0,
+    "kcal_net": 165.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-022",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "02057 85 kg 60 min",
+   "inputs": {
+    "code": "02057",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 6.5,
+    "kcal_gross": 552.5,
+    "kcal_net": 467.5,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-023",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "12028 60 kg 30 min",
+   "inputs": {
+    "code": "12028",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 6.5,
+    "kcal_gross": 195.0,
+    "kcal_net": 165.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-024",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "12028 85 kg 60 min",
+   "inputs": {
+    "code": "12028",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 6.5,
+    "kcal_gross": 552.5,
+    "kcal_net": 467.5,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-025",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "12030 60 kg 30 min",
+   "inputs": {
+    "code": "12030",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 8.5,
+    "kcal_gross": 255.0,
+    "kcal_net": 225.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-026",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "12030 85 kg 60 min",
+   "inputs": {
+    "code": "12030",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 8.5,
+    "kcal_gross": 722.5,
+    "kcal_net": 637.5,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-027",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "12050 60 kg 30 min",
+   "inputs": {
+    "code": "12050",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 9.3,
+    "kcal_gross": 279.0,
+    "kcal_net": 249.00000000000003,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-028",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "12050 85 kg 60 min",
+   "inputs": {
+    "code": "12050",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 9.3,
+    "kcal_gross": 790.5000000000001,
+    "kcal_net": 705.5000000000001,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-029",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "12070 60 kg 30 min",
+   "inputs": {
+    "code": "12070",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 11.0,
+    "kcal_gross": 330.0,
+    "kcal_net": 300.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-030",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "12070 85 kg 60 min",
+   "inputs": {
+    "code": "12070",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 11.0,
+    "kcal_gross": 935.0,
+    "kcal_net": 850.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-031",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "12090 60 kg 30 min",
+   "inputs": {
+    "code": "12090",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 12.0,
+    "kcal_gross": 360.0,
+    "kcal_net": 330.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-032",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "12090 85 kg 60 min",
+   "inputs": {
+    "code": "12090",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 12.0,
+    "kcal_gross": 1020.0,
+    "kcal_net": 935.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-033",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "12120 60 kg 30 min",
+   "inputs": {
+    "code": "12120",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 14.8,
+    "kcal_gross": 444.0,
+    "kcal_net": 414.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-034",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "12120 85 kg 60 min",
+   "inputs": {
+    "code": "12120",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 14.8,
+    "kcal_gross": 1258.0,
+    "kcal_net": 1173.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-035",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "17152 60 kg 30 min",
+   "inputs": {
+    "code": "17152",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 2.8,
+    "kcal_gross": 84.0,
+    "kcal_net": 53.99999999999999,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-036",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "17152 85 kg 60 min",
+   "inputs": {
+    "code": "17152",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 2.8,
+    "kcal_gross": 237.99999999999997,
+    "kcal_net": 152.99999999999997,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-037",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "17170 60 kg 30 min",
+   "inputs": {
+    "code": "17170",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 3.0,
+    "kcal_gross": 90.0,
+    "kcal_net": 60.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-038",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "17170 85 kg 60 min",
+   "inputs": {
+    "code": "17170",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 3.0,
+    "kcal_gross": 255.0,
+    "kcal_net": 170.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-039",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "17190 60 kg 30 min",
+   "inputs": {
+    "code": "17190",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 3.8,
+    "kcal_gross": 114.0,
+    "kcal_net": 84.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-040",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "17190 85 kg 60 min",
+   "inputs": {
+    "code": "17190",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 3.8,
+    "kcal_gross": 323.0,
+    "kcal_net": 237.99999999999997,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-041",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "17200 60 kg 30 min",
+   "inputs": {
+    "code": "17200",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 4.8,
+    "kcal_gross": 144.0,
+    "kcal_net": 114.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-042",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "17200 85 kg 60 min",
+   "inputs": {
+    "code": "17200",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 4.8,
+    "kcal_gross": 408.0,
+    "kcal_net": 323.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-043",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "17220 60 kg 30 min",
+   "inputs": {
+    "code": "17220",
+    "weight_kg": 60,
+    "minutes": 30
+   },
+   "expected": {
+    "met": 5.5,
+    "kcal_gross": 165.0,
+    "kcal_net": 135.0,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-044",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "17220 85 kg 60 min",
+   "inputs": {
+    "code": "17220",
+    "weight_kg": 85,
+    "minutes": 60
+   },
+   "expected": {
+    "met": 5.5,
+    "kcal_gross": 467.5,
+    "kcal_net": 382.5,
+    "older_adult_note": false
+   }
+  },
+  {
+   "id": "MET-045",
+   "group": "MET",
+   "function": "exercise_kcal",
+   "description": "age 65 flag",
+   "inputs": {
+    "code": "17200",
+    "weight_kg": 70,
+    "minutes": 45,
+    "age": 65
+   },
+   "expected": {
+    "met": 4.8,
+    "kcal_gross": 252.0,
+    "kcal_net": 199.5,
+    "older_adult_note": true
+   }
+  },
+  {
+   "id": "E1RM-001",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "20 kg x 1",
+   "inputs": {
+    "weight_kg": 20,
+    "reps": 1
+   },
+   "expected": 20
+  },
+  {
+   "id": "E1RM-002",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "20 kg x 2",
+   "inputs": {
+    "weight_kg": 20,
+    "reps": 2
+   },
+   "expected": 20.571428571428573
+  },
+  {
+   "id": "E1RM-003",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "20 kg x 3",
+   "inputs": {
+    "weight_kg": 20,
+    "reps": 3
+   },
+   "expected": 21.176470588235293
+  },
+  {
+   "id": "E1RM-004",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "20 kg x 4",
+   "inputs": {
+    "weight_kg": 20,
+    "reps": 4
+   },
+   "expected": 21.818181818181817
+  },
+  {
+   "id": "E1RM-005",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "20 kg x 5",
+   "inputs": {
+    "weight_kg": 20,
+    "reps": 5
+   },
+   "expected": 22.5
+  },
+  {
+   "id": "E1RM-006",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "20 kg x 6",
+   "inputs": {
+    "weight_kg": 20,
+    "reps": 6
+   },
+   "expected": 23.225806451612904
+  },
+  {
+   "id": "E1RM-007",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "20 kg x 7",
+   "inputs": {
+    "weight_kg": 20,
+    "reps": 7
+   },
+   "expected": 24.0
+  },
+  {
+   "id": "E1RM-008",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "20 kg x 8",
+   "inputs": {
+    "weight_kg": 20,
+    "reps": 8
+   },
+   "expected": 24.82758620689655
+  },
+  {
+   "id": "E1RM-009",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "20 kg x 9",
+   "inputs": {
+    "weight_kg": 20,
+    "reps": 9
+   },
+   "expected": 25.714285714285715
+  },
+  {
+   "id": "E1RM-010",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "20 kg x 10",
+   "inputs": {
+    "weight_kg": 20,
+    "reps": 10
+   },
+   "expected": 26.666666666666668
+  },
+  {
+   "id": "E1RM-011",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "60 kg x 1",
+   "inputs": {
+    "weight_kg": 60,
+    "reps": 1
+   },
+   "expected": 60
+  },
+  {
+   "id": "E1RM-012",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "60 kg x 2",
+   "inputs": {
+    "weight_kg": 60,
+    "reps": 2
+   },
+   "expected": 61.714285714285715
+  },
+  {
+   "id": "E1RM-013",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "60 kg x 3",
+   "inputs": {
+    "weight_kg": 60,
+    "reps": 3
+   },
+   "expected": 63.529411764705884
+  },
+  {
+   "id": "E1RM-014",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "60 kg x 4",
+   "inputs": {
+    "weight_kg": 60,
+    "reps": 4
+   },
+   "expected": 65.45454545454545
+  },
+  {
+   "id": "E1RM-015",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "60 kg x 5",
+   "inputs": {
+    "weight_kg": 60,
+    "reps": 5
+   },
+   "expected": 67.5
+  },
+  {
+   "id": "E1RM-016",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "60 kg x 6",
+   "inputs": {
+    "weight_kg": 60,
+    "reps": 6
+   },
+   "expected": 69.6774193548387
+  },
+  {
+   "id": "E1RM-017",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "60 kg x 7",
+   "inputs": {
+    "weight_kg": 60,
+    "reps": 7
+   },
+   "expected": 72.0
+  },
+  {
+   "id": "E1RM-018",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "60 kg x 8",
+   "inputs": {
+    "weight_kg": 60,
+    "reps": 8
+   },
+   "expected": 74.48275862068965
+  },
+  {
+   "id": "E1RM-019",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "60 kg x 9",
+   "inputs": {
+    "weight_kg": 60,
+    "reps": 9
+   },
+   "expected": 77.14285714285714
+  },
+  {
+   "id": "E1RM-020",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "60 kg x 10",
+   "inputs": {
+    "weight_kg": 60,
+    "reps": 10
+   },
+   "expected": 80.0
+  },
+  {
+   "id": "E1RM-021",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "100 kg x 1",
+   "inputs": {
+    "weight_kg": 100,
+    "reps": 1
+   },
+   "expected": 100
+  },
+  {
+   "id": "E1RM-022",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "100 kg x 2",
+   "inputs": {
+    "weight_kg": 100,
+    "reps": 2
+   },
+   "expected": 102.85714285714286
+  },
+  {
+   "id": "E1RM-023",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "100 kg x 3",
+   "inputs": {
+    "weight_kg": 100,
+    "reps": 3
+   },
+   "expected": 105.88235294117646
+  },
+  {
+   "id": "E1RM-024",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "100 kg x 4",
+   "inputs": {
+    "weight_kg": 100,
+    "reps": 4
+   },
+   "expected": 109.0909090909091
+  },
+  {
+   "id": "E1RM-025",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "100 kg x 5",
+   "inputs": {
+    "weight_kg": 100,
+    "reps": 5
+   },
+   "expected": 112.5
+  },
+  {
+   "id": "E1RM-026",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "100 kg x 6",
+   "inputs": {
+    "weight_kg": 100,
+    "reps": 6
+   },
+   "expected": 116.12903225806451
+  },
+  {
+   "id": "E1RM-027",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "100 kg x 7",
+   "inputs": {
+    "weight_kg": 100,
+    "reps": 7
+   },
+   "expected": 120.0
+  },
+  {
+   "id": "E1RM-028",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "100 kg x 8",
+   "inputs": {
+    "weight_kg": 100,
+    "reps": 8
+   },
+   "expected": 124.13793103448276
+  },
+  {
+   "id": "E1RM-029",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "100 kg x 9",
+   "inputs": {
+    "weight_kg": 100,
+    "reps": 9
+   },
+   "expected": 128.57142857142858
+  },
+  {
+   "id": "E1RM-030",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "100 kg x 10",
+   "inputs": {
+    "weight_kg": 100,
+    "reps": 10
+   },
+   "expected": 133.33333333333334
+  },
+  {
+   "id": "E1RM-031",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "140 kg x 1",
+   "inputs": {
+    "weight_kg": 140,
+    "reps": 1
+   },
+   "expected": 140
+  },
+  {
+   "id": "E1RM-032",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "140 kg x 2",
+   "inputs": {
+    "weight_kg": 140,
+    "reps": 2
+   },
+   "expected": 144.0
+  },
+  {
+   "id": "E1RM-033",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "140 kg x 3",
+   "inputs": {
+    "weight_kg": 140,
+    "reps": 3
+   },
+   "expected": 148.23529411764707
+  },
+  {
+   "id": "E1RM-034",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "140 kg x 4",
+   "inputs": {
+    "weight_kg": 140,
+    "reps": 4
+   },
+   "expected": 152.72727272727272
+  },
+  {
+   "id": "E1RM-035",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "140 kg x 5",
+   "inputs": {
+    "weight_kg": 140,
+    "reps": 5
+   },
+   "expected": 157.5
+  },
+  {
+   "id": "E1RM-036",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "140 kg x 6",
+   "inputs": {
+    "weight_kg": 140,
+    "reps": 6
+   },
+   "expected": 162.58064516129033
+  },
+  {
+   "id": "E1RM-037",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "140 kg x 7",
+   "inputs": {
+    "weight_kg": 140,
+    "reps": 7
+   },
+   "expected": 168.0
+  },
+  {
+   "id": "E1RM-038",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "140 kg x 8",
+   "inputs": {
+    "weight_kg": 140,
+    "reps": 8
+   },
+   "expected": 173.79310344827587
+  },
+  {
+   "id": "E1RM-039",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "140 kg x 9",
+   "inputs": {
+    "weight_kg": 140,
+    "reps": 9
+   },
+   "expected": 180.0
+  },
+  {
+   "id": "E1RM-040",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "140 kg x 10",
+   "inputs": {
+    "weight_kg": 140,
+    "reps": 10
+   },
+   "expected": 186.66666666666666
+  },
+  {
+   "id": "E1RM-041",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "8 reps + 2 RIR = 10 (valid)",
+   "inputs": {
+    "weight_kg": 80,
+    "reps": 8,
+    "rir": 2
+   },
+   "expected": 106.66666666666667
+  },
+  {
+   "id": "E1RM-042",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "8 reps + 3 RIR = 11 (None)",
+   "inputs": {
+    "weight_kg": 80,
+    "reps": 8,
+    "rir": 3
+   },
+   "expected": null
+  },
+  {
+   "id": "E1RM-043",
+   "group": "E1RM",
+   "function": "e1rm",
+   "description": "12 reps (None)",
+   "inputs": {
+    "weight_kg": 50,
+    "reps": 12
+   },
+   "expected": null
+  },
+  {
+   "id": "VOL-001",
+   "group": "VOL",
+   "function": "weekly_volume",
+   "description": "mixed week: warm-up excluded, RIR 6 not hard, fractional secondaries",
+   "inputs": {
+    "sets": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 40,
+      "reps": 10,
+      "warmup": true
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8,
+      "rir": 2
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8,
+      "rir": 2
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8,
+      "rir": 2
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8,
+      "rir": 2
+     },
+     {
+      "exercise_id": "row",
+      "weight_kg": 70,
+      "reps": 10,
+      "rir": 1
+     },
+     {
+      "exercise_id": "row",
+      "weight_kg": 70,
+      "reps": 10,
+      "rir": 1
+     },
+     {
+      "exercise_id": "row",
+      "weight_kg": 70,
+      "reps": 10,
+      "rir": 1
+     },
+     {
+      "exercise_id": "squat",
+      "weight_kg": 100,
+      "reps": 5,
+      "rir": 3
+     },
+     {
+      "exercise_id": "squat",
+      "weight_kg": 100,
+      "reps": 5,
+      "rir": 3
+     },
+     {
+      "exercise_id": "squat",
+      "weight_kg": 100,
+      "reps": 5,
+      "rir": 3
+     },
+     {
+      "exercise_id": "pushdown",
+      "weight_kg": 25,
+      "reps": 15,
+      "rir": 6
+     },
+     {
+      "exercise_id": "pushdown",
+      "weight_kg": 25,
+      "reps": 15,
+      "rir": 6
+     },
+     {
+      "exercise_id": "pushdown",
+      "weight_kg": 25,
+      "reps": 12
+     },
+     {
+      "exercise_id": "pushdown",
+      "weight_kg": 25,
+      "reps": 12
+     }
+    ],
+    "muscle_map": {
+     "bench": {
+      "primary": [
+       "chest"
+      ],
+      "secondary": [
+       "triceps",
+       "front_delt"
+      ]
+     },
+     "row": {
+      "primary": [
+       "lats",
+       "upper_back"
+      ],
+      "secondary": [
+       "biceps",
+       "rear_delt"
+      ]
+     },
+     "squat": {
+      "primary": [
+       "quads",
+       "glutes"
+      ],
+      "secondary": [
+       "adductors"
+      ]
+     },
+     "pushdown": {
+      "primary": [
+       "triceps"
+      ],
+      "secondary": []
+     }
+    }
+   },
+   "expected": {
+    "fractional_sets": {
+     "adductors": 1.5,
+     "biceps": 1.5,
+     "chest": 4.0,
+     "front_delt": 2.0,
+     "glutes": 3.0,
+     "lats": 3.0,
+     "quads": 3.0,
+     "rear_delt": 1.5,
+     "triceps": 4.0,
+     "upper_back": 3.0
+    },
+    "hard_sets": 12,
+    "tonnage_kg": 7510.0,
+    "mean_relative_intensity": 0.7738095238095238
+   }
+  },
+  {
+   "id": "VOL-002",
+   "group": "VOL",
+   "function": "weekly_volume",
+   "description": "only warm-ups",
+   "inputs": {
+    "sets": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 40,
+      "reps": 10,
+      "warmup": true
+     }
+    ],
+    "muscle_map": {
+     "bench": {
+      "primary": [
+       "chest"
+      ],
+      "secondary": [
+       "triceps",
+       "front_delt"
+      ]
+     },
+     "row": {
+      "primary": [
+       "lats",
+       "upper_back"
+      ],
+      "secondary": [
+       "biceps",
+       "rear_delt"
+      ]
+     },
+     "squat": {
+      "primary": [
+       "quads",
+       "glutes"
+      ],
+      "secondary": [
+       "adductors"
+      ]
+     },
+     "pushdown": {
+      "primary": [
+       "triceps"
+      ],
+      "secondary": []
+     }
+    }
+   },
+   "expected": {
+    "fractional_sets": {},
+    "hard_sets": 0,
+    "tonnage_kg": 0.0,
+    "mean_relative_intensity": null
+   }
+  },
+  {
+   "id": "PR-001",
+   "group": "PR",
+   "function": "detect_prs",
+   "description": "heavier weight -> weight PR (e1RM not beaten)",
+   "inputs": {
+    "history": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 7,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 85,
+      "reps": 5,
+      "session_id": "s2"
+     },
+     {
+      "exercise_id": "squat",
+      "weight_kg": 100,
+      "reps": 5,
+      "session_id": "s2"
+     }
+    ],
+    "session": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 87.5,
+      "reps": 5
+     }
+    ]
+   },
+   "expected": {
+    "prs": [
+     {
+      "exercise_id": "bench",
+      "type": "weight",
+      "value": 87.5,
+      "previous": 85
+     }
+    ],
+    "flags": []
+   }
+  },
+  {
+   "id": "PR-002",
+   "group": "PR",
+   "function": "detect_prs",
+   "description": "more reps at 80 -> reps PR",
+   "inputs": {
+    "history": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 7,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 85,
+      "reps": 5,
+      "session_id": "s2"
+     },
+     {
+      "exercise_id": "squat",
+      "weight_kg": 100,
+      "reps": 5,
+      "session_id": "s2"
+     }
+    ],
+    "session": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 9
+     }
+    ]
+   },
+   "expected": {
+    "prs": [
+     {
+      "exercise_id": "bench",
+      "type": "reps",
+      "weight_kg": 80,
+      "value": 9,
+      "previous": 8
+     },
+     {
+      "exercise_id": "bench",
+      "type": "e1rm",
+      "value": 102.85714285714286,
+      "previous": 99.3103448275862
+     }
+    ],
+    "flags": []
+   }
+  },
+  {
+   "id": "PR-003",
+   "group": "PR",
+   "function": "detect_prs",
+   "description": "bigger session volume",
+   "inputs": {
+    "history": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 7,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 85,
+      "reps": 5,
+      "session_id": "s2"
+     },
+     {
+      "exercise_id": "squat",
+      "weight_kg": 100,
+      "reps": 5,
+      "session_id": "s2"
+     }
+    ],
+    "session": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8
+     }
+    ]
+   },
+   "expected": {
+    "prs": [
+     {
+      "exercise_id": "bench",
+      "type": "volume",
+      "value": 1920,
+      "previous": 1200.0
+     }
+    ],
+    "flags": []
+   }
+  },
+  {
+   "id": "PR-004",
+   "group": "PR",
+   "function": "detect_prs",
+   "description": "no PR",
+   "inputs": {
+    "history": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 7,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 85,
+      "reps": 5,
+      "session_id": "s2"
+     },
+     {
+      "exercise_id": "squat",
+      "weight_kg": 100,
+      "reps": 5,
+      "session_id": "s2"
+     }
+    ],
+    "session": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 70,
+      "reps": 8
+     }
+    ]
+   },
+   "expected": {
+    "prs": [],
+    "flags": []
+   }
+  },
+  {
+   "id": "PR-005",
+   "group": "PR",
+   "function": "detect_prs",
+   "description": "typo 850 kg -> needs confirmation",
+   "inputs": {
+    "history": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 7,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 85,
+      "reps": 5,
+      "session_id": "s2"
+     },
+     {
+      "exercise_id": "squat",
+      "weight_kg": 100,
+      "reps": 5,
+      "session_id": "s2"
+     }
+    ],
+    "session": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 850,
+      "reps": 5
+     }
+    ]
+   },
+   "expected": {
+    "prs": [],
+    "flags": [
+     {
+      "exercise_id": "bench",
+      "flag": "needs_confirmation"
+     }
+    ]
+   }
+  },
+  {
+   "id": "PR-006",
+   "group": "PR",
+   "function": "detect_prs",
+   "description": "e1RM jump >30% -> needs confirmation",
+   "inputs": {
+    "history": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 7,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 85,
+      "reps": 5,
+      "session_id": "s2"
+     },
+     {
+      "exercise_id": "squat",
+      "weight_kg": 100,
+      "reps": 5,
+      "session_id": "s2"
+     }
+    ],
+    "session": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 120,
+      "reps": 6
+     }
+    ]
+   },
+   "expected": {
+    "prs": [],
+    "flags": [
+     {
+      "exercise_id": "bench",
+      "flag": "needs_confirmation"
+     }
+    ]
+   }
+  },
+  {
+   "id": "PR-007",
+   "group": "PR",
+   "function": "detect_prs",
+   "description": "new exercise -> baseline only",
+   "inputs": {
+    "history": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 7,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 85,
+      "reps": 5,
+      "session_id": "s2"
+     },
+     {
+      "exercise_id": "squat",
+      "weight_kg": 100,
+      "reps": 5,
+      "session_id": "s2"
+     }
+    ],
+    "session": [
+     {
+      "exercise_id": "deadlift",
+      "weight_kg": 140,
+      "reps": 5
+     }
+    ]
+   },
+   "expected": {
+    "prs": [],
+    "flags": []
+   }
+  },
+  {
+   "id": "PR-008",
+   "group": "PR",
+   "function": "detect_prs",
+   "description": "zero reps -> invalid",
+   "inputs": {
+    "history": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 7,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 85,
+      "reps": 5,
+      "session_id": "s2"
+     },
+     {
+      "exercise_id": "squat",
+      "weight_kg": 100,
+      "reps": 5,
+      "session_id": "s2"
+     }
+    ],
+    "session": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 0
+     }
+    ]
+   },
+   "expected": {
+    "prs": [],
+    "flags": [
+     {
+      "exercise_id": "bench",
+      "flag": "invalid_input"
+     }
+    ]
+   }
+  },
+  {
+   "id": "PR-009",
+   "group": "PR",
+   "function": "detect_prs",
+   "description": "warm-up ignored",
+   "inputs": {
+    "history": [
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 8,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 80,
+      "reps": 7,
+      "session_id": "s1"
+     },
+     {
+      "exercise_id": "bench",
+      "weight_kg": 85,
+      "reps": 5,
+      "session_id": "s2"
+     },
+     {
+      "exercise_id": "squat",
+      "weight_kg": 100,
+      "reps": 5,
+      "session_id": "s2"
+     }
+    ],
+    "session": [
+     {
+      "exercise_id": "squat",
+      "weight_kg": 120,
+      "reps": 5,
+      "warmup": true
+     }
+    ]
+   },
+   "expected": {
+    "prs": [],
+    "flags": []
+   }
+  }
+ ]
+}

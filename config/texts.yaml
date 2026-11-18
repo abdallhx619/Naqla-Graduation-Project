@@ -1,0 +1,36 @@
+# Neutral user-facing texts for calculation results (AR / EN).
+# Rules: no judgement, no diagnosis, always the fixed disclaimer under health indicators.
+version: "1.2"
+
+disclaimer:
+  en: "This is an estimate for fitness tracking, not a medical diagnosis. For health concerns, talk to a doctor."
+  ar: "ده تقدير لمتابعة لياقتك، مش تشخيص طبي. لو عندك أي قلق صحي، اتكلم مع دكتور."
+
+ratios:            # CALC-09 (FPT-28)
+  whtr:
+    healthy:   { en: "Your waist is less than half your height.", ar: "محيط وسطك أقل من نص طولك." }
+    increased: { en: "Your waist is half your height or more. Keeping it under half is linked to lower health risk.", ar: "محيط وسطك نص طولك أو أكتر. إنك تخليه أقل من النص مرتبط بخطر صحي أقل." }
+    high:      { en: "Your waist-to-height ratio is 0.6 or more. A check-up with a health professional can help.", ar: "نسبة وسطك لطولك 0.6 أو أكتر. كشف عند متخصص ممكن يفيدك." }
+    below_0_4: { en: "Your waist-to-height ratio is below 0.4.", ar: "نسبة وسطك لطولك أقل من 0.4." }
+    not_applicable: { en: "For BMI 35 and above this ratio is not used.", ar: "النسبة دي ما بتستخدمش لو الـ BMI ‏35 أو أكتر." }
+  whr:
+    not_increased:           { en: "Your waist-to-hip ratio is below the WHO risk level.", ar: "نسبة وسطك لأردافك تحت مستوى الخطر عند WHO." }
+    substantially_increased: { en: "Your waist-to-hip ratio is at or above the WHO risk level.", ar: "نسبة وسطك لأردافك عند مستوى الخطر عند WHO أو أعلى." }
+
+tape_body_fat:     # CALC-06
+  result: { en: "Estimated body fat (tape method): {low}–{high}%", ar: "نسبة الدهون التقديرية (بالشريط): {low}–{high}%" }
+  note:   { en: "Tape estimates usually differ by 3–4 points from a lab measurement. Compare tape with tape over time.", ar: "تقدير الشريط بيختلف عادةً 3–4 نقط عن قياس المعمل. قارن الشريط بالشريط مع الوقت." }
+
+healthy_weight:    # CALC-10
+  range: { en: "Healthy weight range for your height: {min}–{max} kg", ar: "مدى الوزن الصحي لطولك: {min}–{max} كجم" }
+
+daily:             # NUT-07 (FPT-67)
+  under_target: { en: "{remaining} left for today.", ar: "فاضلك {remaining} النهارده." }
+  on_target:    { en: "You've reached today's target.", ar: "وصلت لهدف النهارده." }
+  over_target:  { en: "{over} above today's target. One day doesn't change the trend — tomorrow is a normal day.", ar: "أكتر من هدف النهارده بـ {over}. يوم واحد مش بيغيّر الاتجاه — بكرة يوم عادي." }
+
+adjustment:        # periodic adjustment explanations
+  faster_loss_or_slower_gain_than_planned:  { en: "You lost faster (or gained slower) than planned, so we added {kcal} kcal.", ar: "نزلت أسرع (أو زدت أبطأ) من المخطط، فزوّدنا {kcal} سعر." }
+  faster_gain_or_slower_loss_than_planned:  { en: "You gained faster (or lost slower) than planned, so we removed {kcal} kcal.", ar: "زدت أسرع (أو نزلت أبطأ) من المخطط، فقللنا {kcal} سعر." }
+  on_track:              { en: "You're on track — no change.", ar: "ماشي حسب الخطة — مفيش تغيير." }
+  needs_review:          { en: "We've adjusted as far as we can. Please check your weigh-ins and activity answers.", ar: "عدّلنا لآخر حد ممكن. راجع أوزانك وإجابات النشاط." }

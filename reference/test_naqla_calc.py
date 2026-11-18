@@ -65,7 +65,7 @@ assert E.adult_class(24.999) == "normal"
 print("hand-checked: done")
 
 # ---------- 2. regression ----------
-data = json.load(open(ROOT / "tests" / "vectors" / "calc_v1.1.json", encoding="utf-8"))
+data = json.load(open(ROOT / "tests" / "vectors" / "calc.json", encoding="utf-8"))
 for v in data["vectors"]:
     got = E.compute(**{k: (tuple(map(tuple, x)) if k == "acts" else x) for k, x in v["inputs"].items()})
     for key, exp in v["expected"].items():
@@ -73,7 +73,7 @@ for v in data["vectors"]:
             close(got[key], exp, f"{v['id']} {key}")
         elif got[key] != exp and key != "spec_version":
             fails += 1; print(f"FAIL {v['id']} {key}: {got[key]} != {exp}")
-bv = json.load(open(ROOT / "tests" / "vectors" / "bmi_v1.1.json", encoding="utf-8"))
+bv = json.load(open(ROOT / "tests" / "vectors" / "bmi.json", encoding="utf-8"))
 for v in bv["vectors"]:
     x = E.bmi(v["input"]["weight_kg"], v["input"]["height_cm"])
     close(x, v["expected"]["bmi"], v["id"])

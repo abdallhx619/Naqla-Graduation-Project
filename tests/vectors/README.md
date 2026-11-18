@@ -1,12 +1,14 @@
 # tests/vectors/
 
-Test vectors the app's Dart implementation must pass (absolute tolerance `1e-6`, no rounding).
+Test vectors the app's Dart implementation must pass (absolute tolerance `1e-6`, no rounding). The spec version is inside each file.
 
-| File | Cases | Shape |
+| File | Cases | What it covers |
 |---|---|---|
-| `calc_v1.1.json` | 411 | `{id, group, description, inputs, expected}` — full engine: class, REE, PAL, TDEE, goal applied, target kcal, protein/fat/carbs, flags, reasons |
-| `bmi_v1.1.json` | 20 | `{id, input, expected, note}` — adult BMI and WHO class, incl. exact cut-offs and float-noise cases |
+| `calc.json` | 411 | Full calorie/macro engine: class (adult WHO / teen WHO LMS), REE, PAL, TDEE, goal rules, floors, macros |
+| `bmi.json` | 20 | Adult BMI and class, exact cut-offs and float-noise cases |
+| `body.json` | 80 | Tape body fat (Navy), lean/fat mass, Boer fallback, waist ratios, healthy-weight range |
+| `training.json` | 99 | MET kcal (22 activities), e1RM, fractional weekly volume, PR detection and guards |
+| `tracking.json` | 20 | Weight trend, periodic adjustment, daily remaining, recipe per serving |
 
-Groups in `calc_v1.1.json`: SPEC (the 20 spec cases), BMI cut-offs, TEEN / TEENZ (WHO BMI-for-age, incl. ±0.001 around every cut-off), AGE, PAL, DUR (every onboarding duration), CAP (PAL 2.5), DEF (500 kcal cap), FLOOR, BF (Cunningham), EXP, HEALTH, PCAP (protein cap).
-
+`calc.json`/`bmi.json` use `{id, group, description, inputs, expected}`; the v1.2 files add `function` (the reference function to call).
 Regenerate with `python3 reference/build_vectors.py`; never edit by hand.

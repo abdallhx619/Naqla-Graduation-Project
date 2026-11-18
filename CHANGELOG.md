@@ -1,5 +1,13 @@
 # Changelog — formulas & vectors
 
+## v1.2 — 18 Nov 2026
+- **Body:** tape body fat (Navy 1984, ±SEE range, own method record), lean/fat mass with range propagation, Boer fallback ("rough"), waist-to-height (NICE), waist-to-hip and waist circumference (WHO 2008), healthy-weight range (adults BMI 18.5–25; teens WHO z −2 to +1).
+- **Training:** exercise kcal from 22 Compendium 2024 activities, e1RM (Brzycki, 1–10 reps), fractional weekly volume (Pelland 2026), PR detection with typo/spike guards.
+- **Tracking:** weight trend (time-aware EWMA, 7-day half-life), the v1.1 periodic adjustment implemented (only the change that applies is stored), daily remaining, recipe per serving with cooking yield.
+- `config/texts.yaml`: neutral AR/EN texts and the fixed disclaimer.
+- Vector files renamed without version (`calc.json`, `bmi.json`, `body.json`, `training.json`, `tracking.json`); the version lives inside each file.
+- Tests: 199 new vectors, 25,000 more random-profile checks, 14 more bad-input checks.
+
 ## v1.1 — 18 Nov 2026
 - **No rounding anywhere.** Removed "round target to the nearest 50 kcal"; every step keeps full precision.
 - **Teens 16–17 may choose weight loss only if overweight or obesity** (WHO BMI-for-age z > +1). Normal and thinness → maintenance.

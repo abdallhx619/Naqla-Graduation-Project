@@ -133,7 +133,7 @@ add("PCAP", "M17 obesity lose, teen protein hits 30%", sex="M", age=17, h=175, w
 add("PCAP", "very tall heavy man, BMI-30 reference weight", sex="M", age=30, h=200, w=150, goal="lose")
 
 out = ROOT / "tests" / "vectors"
-with open(out / "calc_v1.1.json", "w", encoding="utf-8") as f:
+with open(out / "calc.json", "w", encoding="utf-8") as f:
     json.dump({"spec_version": SPEC_VERSION, "tolerance_abs": 1e-6, "count": len(V),
                "note": "No rounding anywhere. Teens are classified from the WHO 2007 LMS table.",
                "vectors": V}, f, ensure_ascii=False, indent=1)
@@ -153,11 +153,14 @@ for cid, w, h, why in [
     x = bmi(w, h)
     BV.append({"id": cid, "input": {"weight_kg": w, "height_cm": h},
                "expected": {"bmi": x, "class": adult_class(x)}, "note": why})
-with open(out / "bmi_v1.1.json", "w", encoding="utf-8") as f:
+with open(out / "bmi.json", "w", encoding="utf-8") as f:
     json.dump({"spec_version": SPEC_VERSION, "tolerance_abs": 1e-6, "count": len(BV),
                "rule": "exact BMI, no rounding; float tolerance 1e-9 at cut-offs; cut-off values go to the higher class",
                "vectors": BV}, f, ensure_ascii=False, indent=1)
+import vectors_v12  # noqa: E402
+extra = vectors_v12.build(out)
 groups = {}
 for v in V:
     groups[v["group"]] = groups.get(v["group"], 0) + 1
-print(len(V), "vectors:", groups)
+print(len(V), "calc vectors:", groups)
+print(len(BV), "bmi vectors;", "v1.2 modules:", extra)
