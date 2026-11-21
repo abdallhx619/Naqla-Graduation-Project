@@ -9,11 +9,11 @@ AI/ML work for Naqla (نقلة), a fitness & nutrition app.
 ## Repository layout
 | Folder | What goes there |
 |---|---|
-| `config/` | Versioned formulas, thresholds and bands shared by the AI and the app (`formulas.yaml`, WHO LMS table). Every value has a cited source. |
+| `config/` | Versioned formulas, thresholds and bands shared by the AI and the app (`formulas.yaml`, WHO LMS table, `texts.yaml`). Every value has a cited source. |
 | `reference/` | Python reference implementation + test runner. |
 | `tests/vectors/` | Test vectors (inputs → expected outputs) the app's Dart code must pass. |
 
-Current formula version: **v1.1** — see [`CHANGELOG.md`](CHANGELOG.md).
+Current formula version: **v1.2** — see [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Rules
 - No number without a source: each formula/threshold in `config/` links to where it came from.

@@ -1,7 +1,7 @@
 # Naqla — calorie, macro and body-index formulas.
 # Single source of truth for the AI reference code (reference/) and the app (Dart).
 # Every value cites its source. Changing any value = bump `version` + CHANGELOG.md.
-version: "1.1"
+version: "1.2"
 date: "2026-11-18"
 approved_by: "Abdallh Mohamed (Engineer 2) — owner sign-off, 18 Nov 2026"
 rounding: "none — every step keeps full double precision; tests compare with abs tolerance 1e-6"
@@ -122,3 +122,76 @@ macros:
     source: "IOM 2005 AMDR: fat 20-35% (adults), 25-35% (ages 4-18)"
   carbs: "remainder = (target - 4*protein - 9*fat) / 4"
   known_gap: "during weight loss carbs can fall to ~36-43% of kcal, below the AMDR 45% floor, because of the higher protein ISSN supports"
+
+# ======================= v1.2 additions =======================
+tape_body_fat:            # CALC-06 — reference/body.py
+  men: "density = 1.0324 - 0.19077*log10(waist - neck) + 0.15456*log10(height)"
+  women: "density = 1.29579 - 0.35004*log10(waist + hip - neck) + 0.22100*log10(height)"
+  to_percent: "%BF = 495 / density - 450 (Siri)"
+  units: cm
+  sites: { men_waist: "abdomen at the navel (abdomen II)", women_waist: "natural waist, narrowest point between sternum and navel (abdomen I)", hip: "greatest protrusion of the buttocks" }
+  output: "estimate with a +/-SEE range: men 3.52, women 3.72 %BF; outside 2-60 % -> not shown, ask to re-measure"
+  rules: ["stored as its own method record, never merged or averaged with photo/InBody values", "never switches REE to Cunningham"]
+  sources: ["Hodgdon & Beckett 1984, NHRC reports 84-11 (men) and 84-29 (women)", "NRC 1998 'Assessing Readiness in Military Women', Table B-1 (SEE, measurement sites)"]
+
+lean_mass:                # CALC-07
+  from_body_fat: "LBM = W * (1 - BF/100); fat mass = W * BF/100; a BF% range propagates to LBM/fat ranges"
+  fallback_no_body_fat: "Boer 1984: men 0.407*W + 0.267*H - 19.2; women 0.252*W + 0.473*H - 48.3 (kg, cm) — labelled 'rough'"
+  source: "Boer P. 1984, Am J Physiol 247:F632-F636"
+
+central_adiposity:        # CALC-09
+  waist_to_height: { formula: "waist / height", classes: { healthy: "0.4-0.49", increased: "0.5-0.59", high: ">= 0.6" }, applies: "BMI < 35", teens: "same WHtR boundaries (Ashwell: valid for children and adults)", source: "NICE NG246 (2022/2025); Ashwell & Gibson" }
+  waist_to_hip: { formula: "waist / hip", substantially_increased: { men: 0.90, women: 0.85 }, adults_only: true, source: "WHO 2008 Expert Consultation on Waist Circumference and Waist-Hip Ratio (report 2011)" }
+  waist_circumference: { increased: { men: 94, women: 80 }, substantially_increased: { men: 102, women: 88 }, adults_only: true, source: "WHO 2008 Expert Consultation" }
+
+healthy_weight_range:     # CALC-10
+  adults: "18.5 * h^2 to 25 * h^2 (upper bound exclusive) — WHO TRS 894 normal range"
+  teens_16_17: "weights at WHO BMI-for-age z = -2 and z = +1 for sex and age in months"
+  rule: "range only, never a single 'ideal weight' (no Devine/Robinson/Miller)"
+
+exercise_energy:          # CALC-11 — reference/training.py
+  formula: "kcal_gross = MET * kg * hours (1 MET = 1 kcal/kg/h); kcal_net = (MET - 1) * kg * hours"
+  table: "22 activities, 2024 Adult Compendium codes, values unchanged (training.MET_TABLE)"
+  use: "tracking only — never added back to the day's food target"
+  note: "Adult Compendium covers 19-59 y; Older Adult Compendium (60+) values not used yet (flagged)"
+  source: "Herrmann et al. 2024, J Sport Health Sci 13:6-12; pacompendium.com"
+
+e1rm:                     # CALC-12
+  formula: "Brzycki: 1RM = w * 36 / (37 - r), r = reps + RIR; exact at r = 1"
+  valid_range: "1-10 reps to failure; otherwise no value"
+  why_brzycki: "peer-reviewed article, identical to Epley at 10 reps; Epley comes from a training booklet"
+  sources: ["Brzycki 1993, JOPERD 64(1):88-90", "LeSuer et al. 1997, JSCR 11:211-213 (accuracy drops with more reps; deadlift underestimated)", "Reynolds et al. 2006 (5RM most accurate)"]
+
+training_volume:          # CALC-13
+  fractional_sets: "primary muscle = 1 set, secondary = 0.5 set"
+  hard_set: "working set (not warm-up) with RIR <= 4, or RIR not logged — design choice (no consensus definition)"
+  tonnage: "sum of load * reps over working sets"
+  relative_intensity: "load / best e1RM for that exercise"
+  sources: ["Pelland et al. 2026, Sports Med 56:481-505 (fractional method best supported)", "Schoenfeld et al. 2017, J Sports Sci 35:1073-1082 (dose-response)", "Refalo et al. (proximity-to-failure reporting has no single definition)"]
+  depends_on: "WRK-01 exercise -> muscle map"
+
+personal_records:         # CALC-14 — practice, no source needed for definitions
+  types: [weight, reps_at_or_above_weight, e1rm, session_volume]
+  first_time: "baseline, not a PR"
+  guards: { e1rm_jump: "> 30 % over best -> ask to confirm", load_jump: "> 2x best load -> ask to confirm", invalid: "load <= 0 or reps < 1" }
+
+weight_trend:             # CALC-15 — reference/tracking.py
+  method: "time-aware EWMA, half-life 7 days: alpha = 1 - 0.5^(gap_days / 7); same-day weigh-ins averaged"
+  weekly_mean: "mean of daily means over 7 days; needs >= 4 weigh-in days"
+  why_weekly: "body weight follows a weekly rhythm (higher after weekends) — comparing 7-day means cancels it"
+  sources: ["Orsama et al. 2014, Obes Facts 7:36-47 (weekly weight rhythm)"]
+  note: "half-life choice is a design choice"
+
+periodic_adjustment_impl: # spec v1.1 rules, implemented in tracking.periodic_adjustment
+  gain_over_2y_band: "0.15-0.35 %/week (about 0.25 %, +/-0.1 — design choice)"
+  limits: "never below the floor (or TDEE if lower); weight loss keeps the 500 kcal cap and never exceeds TDEE; only the change that applies is stored"
+
+daily_tracking:           # NUT-07
+  remaining: "target - consumed for kcal, protein, fat, carbs (negative = over)"
+  texts: "config/texts.yaml — neutral wording, no judgement"
+
+recipe_maths:             # NUT-08
+  per_serving: "sum(raw_g / 100 * nutrient_per_100g_raw) / servings"
+  cooked_weight: "weighed, or raw_total * USDA yield% / 100 (Yield% = cooked / raw * 100)"
+  source: "USDA Table of Cooking Yields for Meat and Poultry (2012)"
+  pending: "yield-factor table per food comes with the NUT-01 food database"

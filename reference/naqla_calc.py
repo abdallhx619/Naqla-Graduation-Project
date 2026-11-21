@@ -23,7 +23,7 @@ import csv
 import math
 from pathlib import Path
 
-SPEC_VERSION = "1.1"
+SPEC_VERSION = "1.2"
 EPS = 1e-9
 
 K = {"M": 1.34, "F": 1.42}            # IOM: 1.15/0.9/0.95 (men), 1.15/0.9/0.91 (women)
